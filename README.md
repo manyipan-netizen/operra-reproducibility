@@ -8,9 +8,9 @@
 
 ### Part 3 - Workflows
 
-## Onboarding questionnaire
+## Onboarding mini-survey
 
-### Which of the following concepts are you familiar with?
+### Which of the following concepts are your research group members more familiar with?
 *Multiple responses are possible*
 
 -   [ ] R
@@ -22,12 +22,6 @@
 -   [ ] Overleaf
 -   [ ] Other (e.g., Jupyter notebooks)
 
-### How would you assess your programming skills?
-
--   [ ] Basic: I can use scripts by others and add minor modifications
--   [ ] Intermediate: I can write my own scripts or modify substantially existing scripts
--   [ ] Advanced: I write scripts from scratch with interdependent functions in one or more languages
-
 ### What of these programming languages do you use?
 *Multiple responses are possible*
 
@@ -35,4 +29,28 @@
 -   [ ] Python
 -   [ ] Matlab
 -   [ ] Other
+
+### What Integrated Developing Environment do you use? 
+-   [ ] Rstudio 
+-   [ ] VS Code 
+-   [ ] Other 
+
+### How would you assess the programming skills in the group?
+
+-   [ ] Basic 
+-   [ ] Intermediate
+-   [ ] Advanced
+
+### What tools do you currently use to produce and share reports collaboratively? 
+*E.g., to comment each other works, add edits with track changes, etc. *
+-   [ ] MS Word 
+-   [ ] Google docs
+-   [ ] Adobe acrobat for PDF 
+-   [ ] Overleaf
+-   [ ] Other
+
+### Do you have specific challenges in your workflow that you would like to address? 
+(...)
+ 
+
 
