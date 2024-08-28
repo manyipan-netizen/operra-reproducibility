@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dynamic reporting with Quarto …",
+    "section": "",
+    "text": "Welcome to the workshop on Dynamic reporting with Quarto\n\n\n\n\n\n\n\n\n\n\n\n\nInstructions\n\n\n\n\n\n\n\n\n\n\n\nDynamic reporting with Quarto\n\n\n\n\n\n\n\n\n\n\n\nDemo\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "contents/instructions/index.html",
+    "href": "contents/instructions/index.html",
+    "title": "Instructions",
+    "section": "",
+    "text": "Instructions\nThis is the instructions page\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/demo/index.html",
+    "href": "contents/demo/index.html",
+    "title": "Demo",
+    "section": "",
+    "text": "Demo\nThis is the demo page\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/slides/index.html#quarto",
+    "href": "contents/slides/index.html#quarto",
+    "title": "Dynamic reporting with Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "contents/slides/index.html#bullets",
+    "href": "contents/slides/index.html#bullets",
+    "title": "Dynamic reporting with Quarto",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "contents/slides/index.html#code",
+    "href": "contents/slides/index.html#code",
+    "title": "Dynamic reporting with Quarto",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  }
+]
