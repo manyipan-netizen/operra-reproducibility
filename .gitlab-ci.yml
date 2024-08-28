@@ -12,7 +12,7 @@ pages:
   - R -e "remotes::install_version('here', version = '1.0.1')"    # Used for some path handling 
     
   script: 
-  - cd webpage_contents
+  - cd contents
   - R -e "quarto::quarto_render()"       
   - cp -r ../_site/* ../public/  
  
