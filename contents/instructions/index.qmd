@@ -34,3 +34,9 @@ If you do not won't to install anything in your computer you can also work from 
 -  Once logged in, go to your workspace and click on `New Project` (top right corner), then choose `New RStudio Project`. 
 
 
+# Installing additional dependencies and packages
+Type the following code in the R studio console (copy and paste the code below). The installation may take a few minutes. 
+
+```r
+install.packages(c('quarto', 'dplyr', 'ggplot2'))
+``` 
