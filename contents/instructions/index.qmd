@@ -10,3 +10,26 @@ listing:
   filter-ui: true
 
 ---
+
+# Installation
+
+To follow along in the hands-on part of the workshop, please install ```Quarto``` on your computer.  
+
+## R and RStudio setup
+
+Recent versions of RStudio have built-in support for ```Quarto```. Therefore, the simplest way to use it is to install recent versions of R (we recommend version 4.4) and RStudio by following the instructions at <https://posit.co/download/rstudio-desktop/>.
+
+To render documents in PDF format, ```Quarto``` needs to be able to access ```LaTeX```. If you do not already have ```LaTeX``` installed, you can install ```TinyTex``` by typing the following in your terminal:
+
+```
+quarto install tinytex
+```
+
+Additional instructions, if necessary, can be found here: <https://quarto.org/docs/output-formats/pdf-basics.html>
+
+
+## Stand-alone installation
+
+General instructions how to install ```Quarto``` independently of R RStudio can be found at [https://quarto.org/docs/get-started/]. In the course we will mostly use R and RStudio for demonstration, but ```Quarto``` can also be used with python instead of R and with VS Code, Jupyter Notebooks or other development environments instead of RStudio. If this is of interest to you, the following page is a good starting point: <https://quarto.org/docs/get-started/hello/vscode.html>
+
+Please also make sure to have a working version of LaTeX installed (as above). 
