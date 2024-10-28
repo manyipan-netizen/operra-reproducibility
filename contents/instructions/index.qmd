@@ -1,7 +1,7 @@
 ---
 title: 'Installation instructions' 
-author: 'Fabio Molo'
-
+author: 'Fabio Molo and Gorka Fraga Gonzalez'
+date: last-modified
 
 ---
 
