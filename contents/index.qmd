@@ -41,10 +41,10 @@ listing:
   #filter-ui: true
   sort: false  
   contents: 
-    - contents/instructions/*.qmd
-    - contents/slides_intro/*.qmd
-    - contents/demo/*.qmd
-    - contents/slides_outro/*.qmd
+    - ./instructions/*.qmd
+    - ./slides_intro/*.qmd
+    - ./demo/*.qmd
+    - ./slides_outro/*.qmd
 toc: false
 page-layout: full
 ---
