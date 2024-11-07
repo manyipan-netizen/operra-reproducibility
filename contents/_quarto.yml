@@ -27,20 +27,20 @@ website:
         
         right:                  
           - text: "Instructions"            
-            href: contents/instructions/index.qmd
-          - text: "Slides"            
-            href: contents/slides_intro/index.qmd
+            href: ./instructions/index.qmd
+          - text: "Intro"            
+            href: ./slides_intro/index.qmd
           - text: "Demo"            
-            href: contents/demo/index.qmd
-          - text: "Sharing"            
-            href: contents/slides_outro/index.qmd                 
+            href: ./demo/index.qmd
+          - text: "Outro"            
+            href: ./slides_outro/index.qmd                 
                  
 format:
     html:         
         grid:
           sidebar-width: 350px
         theme:
-          light: cosmos
+          light: litera
           dark: darkly
         highlight-style: a11y
         code-link: true
