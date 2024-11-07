@@ -1,0 +1,485 @@
+protocol,light_intensity,time_of_testing,ContributorID,AnimalID,TestgroupID,NameOfDrug,Dose,DrugDose,Outc_varname,Outc_value,logOutc_value
+localization,NA,NA,Lab 1,AMW110,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16324.49384,9.700421949
+localization,NA,NA,Lab 1,AMW111,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13478.49505,9.508850735
+localization,NA,NA,Lab 1,AMW112,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14912.39867,9.609948272
+localization,NA,NA,Lab 1,AMW68,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15358.78503,9.639442904
+localization,NA,NA,Lab 1,AMW77,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16151.36564,9.689759885
+localization,NA,NA,Lab 1,AMW78,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,18405.76377,9.820419143
+localization,NA,NA,Lab 1,AMW80,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12724.65393,9.451296645
+localization,NA,NA,Lab 1,AMW81,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15400.95585,9.642184855
+localization,NA,NA,Lab 1,AMW83,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13978.59354,9.545282406
+localization,NA,NA,Lab 1,AMW84,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14121.30012,9.555439584
+localization,NA,NA,Lab 1,AMW85,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,20469.64607,9.926698388
+localization,NA,NA,Lab 1,AMW89,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,17915.0007,9.793393669
+localization,NA,NA,Lab 1,AMW93,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15513.75349,9.649482231
+localization,NA,NA,Lab 1,AMW97,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13276.36738,9.493740845
+localization,NA,NA,Lab 1,AMW164,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15067.082,9.620267643
+localization,NA,NA,Lab 1,AMW166,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16668.926,9.721301547
+localization,NA,NA,Lab 1,AMW167,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12293.156,9.416797964
+localization,NA,NA,Lab 1,AMW170,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7524.687,8.925944494
+localization,NA,NA,Lab 1,AMW171,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10380.65,9.247698775
+localization,NA,NA,Lab 1,AMW172,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14183.121,9.559807875
+localization,NA,NA,Lab 1,AMW177,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15300.368,9.635632159
+localization,NA,NA,Lab 1,AMW185,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14132.201,9.556211231
+localization,NA,NA,Lab 1,AMW187,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15977.416,9.678931504
+localization,NA,NA,Lab 1,AMW195,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8702.236,9.071335283
+localization,NA,NA,Lab 1,AMW198,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16953.421,9.738224921
+localization,NA,NA,Lab 1,AMW199,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13006.535,9.473207202
+localization,NA,NA,Lab 1,AMW201,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9135.541,9.11992769
+localization,NA,NA,Lab 1,AMW204,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11507.253,9.350732811
+localization,NA,NA,Lab 1,AMW105,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,17772.0835,9.785384162
+localization,NA,NA,Lab 1,AMW73,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,15421.89615,9.643543606
+localization,NA,NA,Lab 1,AMW75,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,17714.9182,9.7821624
+localization,NA,NA,Lab 1,AMW79,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,12454.27852,9.429819499
+localization,NA,NA,Lab 1,AMW86,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10600.93055,9.268697064
+localization,NA,NA,Lab 1,AMW99,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,18489.59344,9.824963336
+localization,NA,NA,Lab 1,AMW168,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10781.115,9.285551271
+localization,NA,NA,Lab 1,AMW173,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10142.058,9.224446215
+localization,NA,NA,Lab 1,AMW184,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9130.493,9.11937497
+localization,NA,NA,Lab 1,AMW189,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,18584.481,9.830082157
+localization,NA,NA,Lab 1,AMW202,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,12389.254,9.424584763
+localization,NA,NA,Lab 1,AMW210,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,17232.58,9.754557057
+localization,NA,NA,Lab 1,AMW101,Saline_F,Saline,0,Saline,Total distance travelled,3203.817129,8.072098231
+localization,NA,NA,Lab 1,AMW103,Saline_F,Saline,0,Saline,Total distance travelled,8180.183647,9.00946988
+localization,NA,NA,Lab 1,AMW104,Saline_F,Saline,0,Saline,Total distance travelled,8017.27526,8.9893539
+localization,NA,NA,Lab 1,AMW113,Saline_F,Saline,0,Saline,Total distance travelled,8124.997575,9.002700709
+localization,NA,NA,Lab 1,AMW67,Saline_F,Saline,0,Saline,Total distance travelled,5337.909277,8.582589334
+localization,NA,NA,Lab 1,AMW69,Saline_F,Saline,0,Saline,Total distance travelled,7079.506971,8.864959547
+localization,NA,NA,Lab 1,AMW70,Saline_F,Saline,0,Saline,Total distance travelled,8259.223944,9.019085909
+localization,NA,NA,Lab 1,AMW72,Saline_F,Saline,0,Saline,Total distance travelled,6351.691891,8.756476496
+localization,NA,NA,Lab 1,AMW74,Saline_F,Saline,0,Saline,Total distance travelled,7202.036349,8.882119091
+localization,NA,NA,Lab 1,AMW87,Saline_F,Saline,0,Saline,Total distance travelled,6812.799925,8.826558464
+localization,NA,NA,Lab 1,AMW91,Saline_F,Saline,0,Saline,Total distance travelled,8297.123503,9.023664168
+localization,NA,NA,Lab 1,AMW95,Saline_F,Saline,0,Saline,Total distance travelled,7040.925473,8.8594949
+localization,NA,NA,Lab 1,AMW98,Saline_F,Saline,0,Saline,Total distance travelled,5740.338242,8.655273415
+localization,NA,NA,Lab 1,AMW174,Saline_M,Saline,0,Saline,Total distance travelled,8030.109,8.990953381
+localization,NA,NA,Lab 1,AMW175,Saline_M,Saline,0,Saline,Total distance travelled,7164.409,8.876880853
+localization,NA,NA,Lab 1,AMW176,Saline_M,Saline,0,Saline,Total distance travelled,7574.696,8.932568498
+localization,NA,NA,Lab 1,AMW178,Saline_M,Saline,0,Saline,Total distance travelled,8214.534,9.013660303
+localization,NA,NA,Lab 1,AMW181,Saline_M,Saline,0,Saline,Total distance travelled,6635.456,8.800182671
+localization,NA,NA,Lab 1,AMW182,Saline_M,Saline,0,Saline,Total distance travelled,6974.609,8.850031548
+localization,NA,NA,Lab 1,AMW193,Saline_M,Saline,0,Saline,Total distance travelled,6837.407,8.830163845
+localization,NA,NA,Lab 1,AMW194,Saline_M,Saline,0,Saline,Total distance travelled,5448.499,8.603095437
+localization,NA,NA,Lab 1,AMW200,Saline_M,Saline,0,Saline,Total distance travelled,7527.669,8.926340711
+localization,NA,NA,Lab 1,AMW203,Saline_M,Saline,0,Saline,Total distance travelled,5290.681,8.57370225
+localization,NA,NA,Lab 1,AMW207,Saline_M,Saline,0,Saline,Total distance travelled,7980.769,8.984790052
+localization,NA,NA,Lab 1,AMW208,Saline_M,Saline,0,Saline,Total distance travelled,17906.95622,9.792944532
+localization,NA,NA,Lab 1,AMW209,Saline_M,Saline,0,Saline,Total distance travelled,7600.973,8.936031544
+localization,NA,NA,Lab 2,PH21913,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16218.2,9.693889347
+localization,NA,NA,Lab 2,PH21914,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11887.1,9.383209057
+localization,NA,NA,Lab 2,PH21915,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8670.4,9.067670205
+localization,NA,NA,Lab 2,PH21916,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13146.7,9.483926056
+localization,NA,NA,Lab 2,PH21927,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9406.9,9.149198742
+localization,NA,NA,Lab 2,PH21933,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11940,9.387649387
+localization,NA,NA,Lab 2,PH21936,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12047,9.396570945
+localization,NA,NA,Lab 2,PH21938,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,16364.3,9.702857412
+localization,NA,NA,Lab 2,PH21939,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15800.9,9.667822179
+localization,NA,NA,Lab 2,PH21943,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12205.6,9.409650142
+localization,NA,NA,Lab 2,PH21945,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14940.3,9.611817539
+localization,NA,NA,Lab 2,PH21949,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11801.8,9.376007341
+localization,NA,NA,Lab 2,PH21955,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12763.4,9.454336979
+localization,NA,NA,Lab 2,PH21958,MK02FEMALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,17020.7,9.742185529
+localization,NA,NA,Lab 2,PH21868,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11933.1,9.38707133
+localization,NA,NA,Lab 2,PH21872,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6090.8,8.714534715
+localization,NA,NA,Lab 2,PH21874,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9470,9.155884186
+localization,NA,NA,Lab 2,PH21879,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13153.3,9.484427957
+localization,NA,NA,Lab 2,PH21881,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7130,8.872066513
+localization,NA,NA,Lab 2,PH21883,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10259.8,9.235988625
+localization,NA,NA,Lab 2,PH21888,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11900.4,9.384327292
+localization,NA,NA,Lab 2,PH21889,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10732.4,9.281022483
+localization,NA,NA,Lab 2,PH21895,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7657.2,8.943401661
+localization,NA,NA,Lab 2,PH21899,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11749,9.37152341
+localization,NA,NA,Lab 2,PH21901,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8770.7,9.0791719
+localization,NA,NA,Lab 2,PH21903,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11311.1,9.333539823
+localization,NA,NA,Lab 2,PH21908,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11949.3,9.388427978
+localization,NA,NA,Lab 2,PH21912,MK02MALE,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9116.7,9.117863175
+localization,NA,NA,Lab 2,PH21921,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8002,8.987446789
+localization,NA,NA,Lab 2,PH21931,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5898.4,8.682436407
+localization,NA,NA,Lab 2,PH21935,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6694.1,8.80898182
+localization,NA,NA,Lab 2,PH21944,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9683.5,9.178178685
+localization,NA,NA,Lab 2,PH21947,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9716.1,9.181539582
+localization,NA,NA,Lab 2,PH21951,MK03FEMALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8212.9,9.013461368
+localization,NA,NA,Lab 2,PH21876,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9769.8,9.187051274
+localization,NA,NA,Lab 2,PH21887,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9765.7,9.186631525
+localization,NA,NA,Lab 2,PH21890,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8688.6,9.069767101
+localization,NA,NA,Lab 2,PH21896,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8586.1,9.057899896
+localization,NA,NA,Lab 2,PH21909,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5356.4,8.586047387
+localization,NA,NA,Lab 2,PH21911,MK03MALE,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6997.6,8.853322512
+localization,NA,NA,Lab 2,PH21918,MK00FEMALE,Saline,0,Saline,Total distance travelled,6396.3,8.763474977
+localization,NA,NA,Lab 2,PH21919,MK00FEMALE,Saline,0,Saline,Total distance travelled,8200.4,9.011938213
+localization,NA,NA,Lab 2,PH21920,MK00FEMALE,Saline,0,Saline,Total distance travelled,9259.1,9.133362131
+localization,NA,NA,Lab 2,PH21923,MK00FEMALE,Saline,0,Saline,Total distance travelled,8457.6,9.042820724
+localization,NA,NA,Lab 2,PH21925,MK00FEMALE,Saline,0,Saline,Total distance travelled,9666.1,9.176380198
+localization,NA,NA,Lab 2,PH21928,MK00FEMALE,Saline,0,Saline,Total distance travelled,5809.4,8.667232574
+localization,NA,NA,Lab 2,PH21930,MK00FEMALE,Saline,0,Saline,Total distance travelled,7062.7,8.862582694
+localization,NA,NA,Lab 2,PH21934,MK00FEMALE,Saline,0,Saline,Total distance travelled,7093.7,8.866962345
+localization,NA,NA,Lab 2,PH21937,MK00FEMALE,Saline,0,Saline,Total distance travelled,8905.6,9.094435571
+localization,NA,NA,Lab 2,PH21940,MK00FEMALE,Saline,0,Saline,Total distance travelled,6778.1,8.821452106
+localization,NA,NA,Lab 2,PH21942,MK00FEMALE,Saline,0,Saline,Total distance travelled,7460,8.917310693
+localization,NA,NA,Lab 2,PH21948,MK00FEMALE,Saline,0,Saline,Total distance travelled,11566.7,9.355885559
+localization,NA,NA,Lab 2,PH21950,MK00FEMALE,Saline,0,Saline,Total distance travelled,6744.1,8.816423328
+localization,NA,NA,Lab 2,PH21954,MK00FEMALE,Saline,0,Saline,Total distance travelled,7402.6,8.909586569
+localization,NA,NA,Lab 2,PH21870,MK00MALE,Saline,0,Saline,Total distance travelled,7577.6,8.932951806
+localization,NA,NA,Lab 2,PH21873,MK00MALE,Saline,0,Saline,Total distance travelled,6058.1,8.709151499
+localization,NA,NA,Lab 2,PH21875,MK00MALE,Saline,0,Saline,Total distance travelled,8254.3,9.018489556
+localization,NA,NA,Lab 2,PH21878,MK00MALE,Saline,0,Saline,Total distance travelled,6322.8,8.751917427
+localization,NA,NA,Lab 2,PH21880,MK00MALE,Saline,0,Saline,Total distance travelled,9054.4,9.111006106
+localization,NA,NA,Lab 2,PH21885,MK00MALE,Saline,0,Saline,Total distance travelled,6339.3,8.754523631
+localization,NA,NA,Lab 2,PH21886,MK00MALE,Saline,0,Saline,Total distance travelled,7106,8.868694777
+localization,NA,NA,Lab 2,PH21892,MK00MALE,Saline,0,Saline,Total distance travelled,8503.8,9.048268401
+localization,NA,NA,Lab 2,PH21897,MK00MALE,Saline,0,Saline,Total distance travelled,7109.4,8.869173131
+localization,NA,NA,Lab 2,PH21900,MK00MALE,Saline,0,Saline,Total distance travelled,8768.9,9.07896665
+localization,NA,NA,Lab 2,PH21902,MK00MALE,Saline,0,Saline,Total distance travelled,6339.9,8.754618274
+localization,NA,NA,Lab 2,PH21904,MK00MALE,Saline,0,Saline,Total distance travelled,9142.4,9.120678212
+localization,NA,NA,Lab 2,PH21906,MK00MALE,Saline,0,Saline,Total distance travelled,9852.4,9.195470359
+localization,NA,NA,Lab 2,PH21907,MK00MALE,Saline,0,Saline,Total distance travelled,7390.4,8.90793714
+localization,NA,NA,Lab 3,49,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10171.54,9.227348903
+localization,NA,NA,Lab 3,50,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6167.37,8.72702777
+localization,NA,NA,Lab 3,51,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10577.55,9.26648911
+localization,NA,NA,Lab 3,53,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12800.49,9.45723873
+localization,NA,NA,Lab 3,55,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11104.07,9.315066987
+localization,NA,NA,Lab 3,65,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11844.04,9.379580066
+localization,NA,NA,Lab 3,69,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15453.76,9.645607618
+localization,NA,NA,Lab 3,70,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7299.99,8.895628257
+localization,NA,NA,Lab 3,72,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8860.17,9.089321231
+localization,NA,NA,Lab 3,75,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7260.83,8.890249426
+localization,NA,NA,Lab 3,76,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10260.3,9.236037358
+localization,NA,NA,Lab 3,84,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10103.37,9.220624311
+localization,NA,NA,Lab 3,85,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10057.56,9.21607987
+localization,NA,NA,Lab 3,88,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12732.2,9.451889497
+localization,NA,NA,Lab 3,90,F / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8128.17,9.003091085
+localization,NA,NA,Lab 3,11,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6554.36,8.787885756
+localization,NA,NA,Lab 3,14,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10537.08,9.262655744
+localization,NA,NA,Lab 3,15,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,4734.06,8.462538464
+localization,NA,NA,Lab 3,2,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10221.8,9.232277973
+localization,NA,NA,Lab 3,20,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9648.96,9.174605417
+localization,NA,NA,Lab 3,23,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11742.87,9.371001527
+localization,NA,NA,Lab 3,24,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6691.75,8.808630703
+localization,NA,NA,Lab 3,35,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10867.06,9.293491474
+localization,NA,NA,Lab 3,36,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12011.69,9.393635621
+localization,NA,NA,Lab 3,38,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9600.4,9.169560043
+localization,NA,NA,Lab 3,4,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8751.35,9.076963253
+localization,NA,NA,Lab 3,41,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7833.78,8.966200431
+localization,NA,NA,Lab 3,43,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6643.41,8.801380665
+localization,NA,NA,Lab 3,45,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8905.49,9.094423219
+localization,NA,NA,Lab 3,47,M / MK 0.2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8691.25,9.070072051
+localization,NA,NA,Lab 3,54,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8539.6,9.052469447
+localization,NA,NA,Lab 3,62,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,11827.4,9.378174153
+localization,NA,NA,Lab 3,81,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,11783.46,9.374452132
+localization,NA,NA,Lab 3,87,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7291.57,8.894474165
+localization,NA,NA,Lab 3,91,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10536.48,9.2625988
+localization,NA,NA,Lab 3,96,F / MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9193.28,9.126228061
+localization,NA,NA,Lab 3,25,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7351.37,8.902641969
+localization,NA,NA,Lab 3,27,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7421.36,8.912117608
+localization,NA,NA,Lab 3,3,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8799.53,9.08245359
+localization,NA,NA,Lab 3,44,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7445.83,8.915409423
+localization,NA,NA,Lab 3,7,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9232.07,9.130438571
+localization,NA,NA,Lab 3,8,M/ MK 0.3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7168.98,8.877518664
+localization,NA,NA,Lab 3,52,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,6720.88,8.812974377
+localization,NA,NA,Lab 3,56,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,16870.73,9.733335447
+localization,NA,NA,Lab 3,57,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,7641.59,8.941360976
+localization,NA,NA,Lab 3,58,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,6996.28,8.853133858
+localization,NA,NA,Lab 3,61,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,5203.021,8.556994697
+localization,NA,NA,Lab 3,64,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,2905.27,7.974281608
+localization,NA,NA,Lab 3,66,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,12030.16,9.395172109
+localization,NA,NA,Lab 3,67,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,6877.02,8.835940698
+localization,NA,NA,Lab 3,71,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,5024.41,8.522063313
+localization,NA,NA,Lab 3,74,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,6293.37,8.747251977
+localization,NA,NA,Lab 3,80,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,7600.57,8.935978523
+localization,NA,NA,Lab 3,82,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,6607.9,8.796021182
+localization,NA,NA,Lab 3,86,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,5341.54,8.58326928
+localization,NA,NA,Lab 3,92,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,11667.05,9.364523908
+localization,NA,NA,Lab 3,94,F / Vehicle (saline),Saline,0,Saline,Total distance travelled,8245.84,9.01746411
+localization,NA,NA,Lab 3,1,M / Veh (saline),Saline,0,Saline,Total distance travelled,5880.93,8.679470192
+localization,NA,NA,Lab 3,10,M / Veh (saline),Saline,0,Saline,Total distance travelled,6202.79,8.73275447
+localization,NA,NA,Lab 3,12,M / Veh (saline),Saline,0,Saline,Total distance travelled,3563.526,8.178505783
+localization,NA,NA,Lab 3,13,M / Veh (saline),Saline,0,Saline,Total distance travelled,5787.58,8.663469521
+localization,NA,NA,Lab 3,19,M / Veh (saline),Saline,0,Saline,Total distance travelled,6747.13,8.816872508
+localization,NA,NA,Lab 3,22,M / Veh (saline),Saline,0,Saline,Total distance travelled,6506.15,8.780503162
+localization,NA,NA,Lab 3,28,M / Veh (saline),Saline,0,Saline,Total distance travelled,6338.74,8.75443529
+localization,NA,NA,Lab 3,30,M / Veh (saline),Saline,0,Saline,Total distance travelled,6298.19,8.74801757
+localization,NA,NA,Lab 3,33,M / Veh (saline),Saline,0,Saline,Total distance travelled,6814.48,8.826805039
+localization,NA,NA,Lab 3,37,M / Veh (saline),Saline,0,Saline,Total distance travelled,7103.86,8.868393577
+localization,NA,NA,Lab 3,40,M / Veh (saline),Saline,0,Saline,Total distance travelled,6349.921,8.756197651
+localization,NA,NA,Lab 3,42,M / Veh (saline),Saline,0,Saline,Total distance travelled,6341.25,8.754831189
+localization,NA,NA,Lab 3,46,M / Veh (saline),Saline,0,Saline,Total distance travelled,5824.526,8.669832902
+localization,NA,NA,Lab 3,5,M / Veh (saline),Saline,0,Saline,Total distance travelled,5868.32,8.677323671
+localization,NA,NA,Lab 3,9,M / Veh (saline),Saline,0,Saline,Total distance travelled,4646.96,8.443968521
+localization,NA,NA,Lab 4,C57BL60259.01,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8439.9479,9.040731415
+localization,NA,NA,Lab 4,C57BL60259.02,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,4987.8738,8.514765006
+localization,NA,NA,Lab 4,C57BL60259.03,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7742.6307,8.954496793
+localization,NA,NA,Lab 4,C57BL60259.04,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7057.7825,8.861886188
+localization,NA,NA,Lab 4,C57BL60259.05,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7558.2088,8.93038951
+localization,NA,NA,Lab 4,C57BL60262.01,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6979.8062,8.85077643
+localization,NA,NA,Lab 4,C57BL60262.02,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6165.2802,8.726688865
+localization,NA,NA,Lab 4,C57BL60262.03,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8183.6173,9.009889545
+localization,NA,NA,Lab 4,C57BL60262.04,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6898.1569,8.839009539
+localization,NA,NA,Lab 4,C57BL60262.05,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8175.517,9.008899235
+localization,NA,NA,Lab 4,C57BL60266.02,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6167.7602,8.727091036
+localization,NA,NA,Lab 4,C57BL60266.03,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7975.6504,8.984148479
+localization,NA,NA,Lab 4,C57BL60266.04,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11557.045,9.355050487
+localization,NA,NA,Lab 4,C57BL60266.05,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7370.4718,8.905236999
+localization,NA,NA,Lab 4,C57BL60282.01,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7487.195,8.920949507
+localization,NA,NA,Lab 4,C57BL60282.02,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,5346.475,8.584192744
+localization,NA,NA,Lab 4,C57BL60282.03,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8476.7334,9.045080442
+localization,NA,NA,Lab 4,C57BL60282.05,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7697.6169,8.948666066
+localization,NA,NA,Lab 4,C57BL60283.01,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7523.1499,8.925740199
+localization,NA,NA,Lab 4,C57BL60283.02,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8275.4974,9.021054307
+localization,NA,NA,Lab 4,C57BL60283.03,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,4475.3503,8.406339907
+localization,NA,NA,Lab 4,C57BL60283.04,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6581.4652,8.792012674
+localization,NA,NA,Lab 4,C57BL60283.05,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7056.2236,8.861665287
+localization,NA,NA,Lab 4,C57BL60284.01,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6329.5941,8.75299139
+localization,NA,NA,Lab 4,C57BL60284.02,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8049.587,8.993376065
+localization,NA,NA,Lab 4,C57BL60284.03,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6451.5016,8.772068189
+localization,NA,NA,Lab 4,C57BL60284.04,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7374.0695,8.905725004
+localization,NA,NA,Lab 4,C57BL60284.05,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9102.8028,9.116337645
+localization,NA,NA,Lab 4,C57BL60263.01,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9174.1918,9.124149582
+localization,NA,NA,Lab 4,C57BL60263.02,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5896.3173,8.682083249
+localization,NA,NA,Lab 4,C57BL60263.03,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6700.712,8.809969068
+localization,NA,NA,Lab 4,C57BL60263.04,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9843.2574,9.194541972
+localization,NA,NA,Lab 4,C57BL60263.05,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7101.7413,8.868095286
+localization,NA,NA,Lab 4,C57BL60271.01,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,3433.2957,8.141275924
+localization,NA,NA,Lab 4,C57BL60271.02,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6841.9369,8.830826143
+localization,NA,NA,Lab 4,C57BL60271.03,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7121.092,8.870816363
+localization,NA,NA,Lab 4,C57BL60271.05,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9477.074,9.156630898
+localization,NA,NA,Lab 4,C57BL60272.01,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,4751.4027,8.466195159
+localization,NA,NA,Lab 4,C57BL60272.02,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6186.3299,8.730097282
+localization,NA,NA,Lab 4,C57BL60272.03,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9264.1265,9.133904855
+localization,NA,NA,Lab 4,C57BL60272.04,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9721.2157,9.182065962
+localization,NA,NA,Lab 4,C57BL60272.05,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5755.849,8.657971834
+localization,NA,NA,Lab 4,C57BL60280.01,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5866.2826,8.676976424
+localization,NA,NA,Lab 4,C57BL60280.02,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8261.0142,9.019302643
+localization,NA,NA,Lab 4,C57BL60280.03,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5137.9846,8.54441618
+localization,NA,NA,Lab 4,C57BL60280.05,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7688.6723,8.947503395
+localization,NA,NA,Lab 4,C57BL60281.01,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6304.4711,8.749014359
+localization,NA,NA,Lab 4,C57BL60281.02,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,4200.6253,8.342988674
+localization,NA,NA,Lab 4,C57BL60281.03,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8127.7698,9.003041848
+localization,NA,NA,Lab 4,C57BL60281.04,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5135.4849,8.543929548
+localization,NA,NA,Lab 4,C57BL60281.05,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7682.8738,8.946748949
+localization,NA,NA,Lab 4,C57BL60286.01,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6422.0953,8.767499714
+localization,NA,NA,Lab 4,C57BL60286.02,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6722.9853,8.813287576
+localization,NA,NA,Lab 4,C57BL60286.03,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5223.1946,8.560864486
+localization,NA,NA,Lab 4,C57BL60286.04,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5830.0747,8.670785092
+localization,NA,NA,Lab 4,C57BL60286.05,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,4451.8059,8.401065113
+localization,NA,NA,Lab 4,C57BL60264.01,Saline_F,Saline,0,Saline,Total distance travelled,3000.6958,8.006599474
+localization,NA,NA,Lab 4,C57BL60264.02,Saline_F,Saline,0,Saline,Total distance travelled,2716.1216,7.906960259
+localization,NA,NA,Lab 4,C57BL60264.03,Saline_F,Saline,0,Saline,Total distance travelled,3697.3293,8.215366027
+localization,NA,NA,Lab 4,C57BL60264.04,Saline_F,Saline,0,Saline,Total distance travelled,3780.8002,8.237690959
+localization,NA,NA,Lab 4,C57BL60264.05,Saline_F,Saline,0,Saline,Total distance travelled,3159.7318,8.05824243
+localization,NA,NA,Lab 4,C57BL60265.01,Saline_F,Saline,0,Saline,Total distance travelled,2385.2651,7.77706555
+localization,NA,NA,Lab 4,C57BL60265.02,Saline_F,Saline,0,Saline,Total distance travelled,3023.2289,8.014080711
+localization,NA,NA,Lab 4,C57BL60265.03,Saline_F,Saline,0,Saline,Total distance travelled,4704.5971,8.456295416
+localization,NA,NA,Lab 4,C57BL60265.04,Saline_F,Saline,0,Saline,Total distance travelled,4874.2905,8.491729834
+localization,NA,NA,Lab 4,C57BL60265.05,Saline_F,Saline,0,Saline,Total distance travelled,3473.1376,8.152813672
+localization,NA,NA,Lab 4,C57BL60269.02,Saline_F,Saline,0,Saline,Total distance travelled,3435.5615,8.141935656
+localization,NA,NA,Lab 4,C57BL60269.03,Saline_F,Saline,0,Saline,Total distance travelled,4006.7052,8.295724537
+localization,NA,NA,Lab 4,C57BL60269.04,Saline_F,Saline,0,Saline,Total distance travelled,2852.567,7.95597457
+localization,NA,NA,Lab 4,C57BL60269.05,Saline_F,Saline,0,Saline,Total distance travelled,4081.4961,8.314218891
+localization,NA,NA,Lab 4,C57BL60273.02,Saline_M,Saline,0,Saline,Total distance travelled,2083.4233,7.641767637
+localization,NA,NA,Lab 4,C57BL60273.03,Saline_M,Saline,0,Saline,Total distance travelled,2000.1169,7.600960908
+localization,NA,NA,Lab 4,C57BL60273.04,Saline_M,Saline,0,Saline,Total distance travelled,3103.8545,8.040400005
+localization,NA,NA,Lab 4,C57BL60273.05,Saline_M,Saline,0,Saline,Total distance travelled,2516.6602,7.830687984
+localization,NA,NA,Lab 4,C57BL60274.01,Saline_M,Saline,0,Saline,Total distance travelled,3264.4608,8.090849883
+localization,NA,NA,Lab 4,C57BL60274.02,Saline_M,Saline,0,Saline,Total distance travelled,3145.6772,8.053784472
+localization,NA,NA,Lab 4,C57BL60274.03,Saline_M,Saline,0,Saline,Total distance travelled,3208.6597,8.07360859
+localization,NA,NA,Lab 4,C57BL60274.04,Saline_M,Saline,0,Saline,Total distance travelled,2995.3035,8.004800841
+localization,NA,NA,Lab 4,C57BL60274.05,Saline_M,Saline,0,Saline,Total distance travelled,2753.0665,7.92047066
+localization,NA,NA,Lab 4,C57BL60278.01,Saline_M,Saline,0,Saline,Total distance travelled,3296.1236,8.10050239
+localization,NA,NA,Lab 4,C57BL60278.02,Saline_M,Saline,0,Saline,Total distance travelled,2291.1895,7.736826394
+localization,NA,NA,Lab 4,C57BL60278.03,Saline_M,Saline,0,Saline,Total distance travelled,2228.8296,7.709231884
+localization,NA,NA,Lab 4,C57BL60278.04,Saline_M,Saline,0,Saline,Total distance travelled,3651.8188,8.202980624
+localization,NA,NA,Lab 4,C57BL60278.05,Saline_M,Saline,0,Saline,Total distance travelled,2590.3611,7.859552566
+localization,NA,NA,Lab 5,12m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7484.02,8.92052536
+localization,NA,NA,Lab 5,15m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7662.73,8.944123596
+localization,NA,NA,Lab 5,18m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9288.94,9.136579724
+localization,NA,NA,Lab 5,21m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9628.16,9.172447417
+localization,NA,NA,Lab 5,24m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9297.27,9.137476088
+localization,NA,NA,Lab 5,3m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5875.71,8.678582183
+localization,NA,NA,Lab 5,43m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8920.93,9.09615548
+localization,NA,NA,Lab 5,46m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8624.43,9.062354153
+localization,NA,NA,Lab 5,6m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7279.75,8.8928518
+localization,NA,NA,Lab 5,9m,3,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7874.18,8.971344331
+localization,NA,NA,Lab 5,10f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9203.48,9.127336952
+localization,NA,NA,Lab 5,13f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10222.2,9.232317105
+localization,NA,NA,Lab 5,16f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10208,9.230927006
+localization,NA,NA,Lab 5,19f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9933.49,9.203667156
+localization,NA,NA,Lab 5,1f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8439.62,9.040692563
+localization,NA,NA,Lab 5,22f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11792.4,9.375210535
+localization,NA,NA,Lab 5,42f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11656.4,9.363610664
+localization,NA,NA,Lab 5,47f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13108.4,9.481008525
+localization,NA,NA,Lab 5,4f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11116.7,9.316203761
+localization,NA,NA,Lab 5,7f,7,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,4895.24,8.496018583
+localization,NA,NA,Lab 5,11f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5403.12,8.594731843
+localization,NA,NA,Lab 5,14f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7810.19,8.96318457
+localization,NA,NA,Lab 5,17f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8666.03,9.067166064
+localization,NA,NA,Lab 5,20f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,11372.1,9.338918266
+localization,NA,NA,Lab 5,23f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10581.1,9.26682467
+localization,NA,NA,Lab 5,2f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8846.3,9.087754571
+localization,NA,NA,Lab 5,43f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,11034.1,9.308745757
+localization,NA,NA,Lab 5,48f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8202.2,9.01215769
+localization,NA,NA,Lab 5,5f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9112.16,9.117365064
+localization,NA,NA,Lab 5,8f,8,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,3970.78,8.286717828
+localization,NA,NA,Lab 5,12f,6,Saline,0,Saline,Total distance travelled,3988.45,8.291157963
+localization,NA,NA,Lab 5,15f,6,Saline,0,Saline,Total distance travelled,3560.71,8.177715242
+localization,NA,NA,Lab 5,18f,6,Saline,0,Saline,Total distance travelled,4013.1,8.297319289
+localization,NA,NA,Lab 5,21f,6,Saline,0,Saline,Total distance travelled,5097.44,8.536493732
+localization,NA,NA,Lab 5,24f,6,Saline,0,Saline,Total distance travelled,3883.64,8.264528137
+localization,NA,NA,Lab 5,3f,6,Saline,0,Saline,Total distance travelled,2939.84,7.986110437
+localization,NA,NA,Lab 5,41f,6,Saline,0,Saline,Total distance travelled,3932.65,8.277068778
+localization,NA,NA,Lab 5,44f,6,Saline,0,Saline,Total distance travelled,2823.59,7.945764404
+localization,NA,NA,Lab 5,6f,6,Saline,0,Saline,Total distance travelled,3745.68,8.228358455
+localization,NA,NA,Lab 5,9f,6,Saline,0,Saline,Total distance travelled,3189.99,8.067773061
+localization,NA,NA,Lab 5,11m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12301.4,9.417468356
+localization,NA,NA,Lab 5,14m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11075.1,9.312454624
+localization,NA,NA,Lab 5,17m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9348.28,9.142947648
+localization,NA,NA,Lab 5,20m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10171.9,9.227384296
+localization,NA,NA,Lab 5,23m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10129.8,9.223236854
+localization,NA,NA,Lab 5,2m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10839.6,9.290961374
+localization,NA,NA,Lab 5,42m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9263.06,9.133789727
+localization,NA,NA,Lab 5,45m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11879.5,9.382569504
+localization,NA,NA,Lab 5,5m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10853.9,9.292279741
+localization,NA,NA,Lab 5,8m,2,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10482.3,9.257443399
+localization,NA,NA,Lab 5,10m,1,Saline,0,Saline,Total distance travelled,4413.06,8.392323605
+localization,NA,NA,Lab 5,13m,1,Saline,0,Saline,Total distance travelled,3976.8,8.288232755
+localization,NA,NA,Lab 5,16m,1,Saline,0,Saline,Total distance travelled,5068.21,8.530742977
+localization,NA,NA,Lab 5,19m,1,Saline,0,Saline,Total distance travelled,3830.94,8.250865483
+localization,NA,NA,Lab 5,1m,1,Saline,0,Saline,Total distance travelled,3882.28,8.264177889
+localization,NA,NA,Lab 5,22m,1,Saline,0,Saline,Total distance travelled,2611.93,7.867844691
+localization,NA,NA,Lab 5,41m,1,Saline,0,Saline,Total distance travelled,3546.99,8.173854635
+localization,NA,NA,Lab 5,44m,1,Saline,0,Saline,Total distance travelled,4885.44,8.494014632
+localization,NA,NA,Lab 5,4m,1,Saline,0,Saline,Total distance travelled,4542.49,8.421230599
+localization,NA,NA,Lab 5,7m,1,Saline,0,Saline,Total distance travelled,2776.13,7.928813151
+localization,NA,NA,Lab 6,33819,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12392.3,9.424830591
+localization,NA,NA,Lab 6,33822,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12164.1,9.40624427
+localization,NA,NA,Lab 6,33843,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10535.9,9.262543752
+localization,NA,NA,Lab 6,33853,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15190.2,9.628405762
+localization,NA,NA,Lab 6,33872,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13051.1,9.4766277
+localization,NA,NA,Lab 6,33874,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7012.03,8.855382524
+localization,NA,NA,Lab 6,33882,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9816.14,9.191783249
+localization,NA,NA,Lab 6,34056,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,15010.9,9.616531883
+localization,NA,NA,Lab 6,34062,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10125.7,9.222832025
+localization,NA,NA,Lab 6,34080,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11453.4,9.346041908
+localization,NA,NA,Lab 6,34086,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11984.8,9.391394459
+localization,NA,NA,Lab 6,34088,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7708.44,8.950071111
+localization,NA,NA,Lab 6,34101,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13726.5,9.52708355
+localization,NA,NA,Lab 6,34106,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8368.6,9.032241885
+localization,NA,NA,Lab 6,33828,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11181.5,9.322015906
+localization,NA,NA,Lab 6,33836,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10890.2,9.295618581
+localization,NA,NA,Lab 6,33839,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13336.2,9.498237421
+localization,NA,NA,Lab 6,33845,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7818.03,8.964187884
+localization,NA,NA,Lab 6,33847,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8142.81,9.004890608
+localization,NA,NA,Lab 6,33854,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10570.7,9.265841302
+localization,NA,NA,Lab 6,33868,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10048.5,9.215178649
+localization,NA,NA,Lab 6,33877,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10425.6,9.252019599
+localization,NA,NA,Lab 6,33879,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10386.2,9.248233281
+localization,NA,NA,Lab 6,34060,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9869.15,9.197169009
+localization,NA,NA,Lab 6,34064,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9915.79,9.201883715
+localization,NA,NA,Lab 6,34072,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12905.9,9.46543985
+localization,NA,NA,Lab 6,34082,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8629.81,9.062977768
+localization,NA,NA,Lab 6,34104,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12045.5,9.396446425
+localization,NA,NA,Lab 6,33818,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7191.44,8.880646709
+localization,NA,NA,Lab 6,33840,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6354.15,8.756863422
+localization,NA,NA,Lab 6,33844,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9548.87,9.164178102
+localization,NA,NA,Lab 6,33871,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,13603.3,9.518067689
+localization,NA,NA,Lab 6,34058,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,15075,9.620793022
+localization,NA,NA,Lab 6,34109,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8603.53,9.059927863
+localization,NA,NA,Lab 6,33829,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6059.78,8.709428775
+localization,NA,NA,Lab 6,33837,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10920.2,9.298369564
+localization,NA,NA,Lab 6,33856,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,5782.99,8.662676129
+localization,NA,NA,Lab 6,34063,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8640.84,9.064255079
+localization,NA,NA,Lab 6,34070,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8628.09,9.062778439
+localization,NA,NA,Lab 6,34073,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,8528.59,9.051179328
+localization,NA,NA,Lab 6,33821,Saline_F,Saline,0,Saline,Total distance travelled,9086.93,9.114592396
+localization,NA,NA,Lab 6,33823,Saline_F,Saline,0,Saline,Total distance travelled,10299.3,9.239831211
+localization,NA,NA,Lab 6,33841,Saline_F,Saline,0,Saline,Total distance travelled,6967.42,8.849000277
+localization,NA,NA,Lab 6,33842,Saline_F,Saline,0,Saline,Total distance travelled,7700.73,8.949070409
+localization,NA,NA,Lab 6,33867,Saline_F,Saline,0,Saline,Total distance travelled,11444.7,9.34528202
+localization,NA,NA,Lab 6,33883,Saline_F,Saline,0,Saline,Total distance travelled,7819.51,8.964377172
+localization,NA,NA,Lab 6,34052,Saline_F,Saline,0,Saline,Total distance travelled,10710.2,9.278951837
+localization,NA,NA,Lab 6,34057,Saline_F,Saline,0,Saline,Total distance travelled,12905.9,9.46543985
+localization,NA,NA,Lab 6,34067,Saline_F,Saline,0,Saline,Total distance travelled,7714.07,8.950801213
+localization,NA,NA,Lab 6,34074,Saline_F,Saline,0,Saline,Total distance travelled,8404.19,9.03648567
+localization,NA,NA,Lab 6,34079,Saline_F,Saline,0,Saline,Total distance travelled,8345.12,9.029432216
+localization,NA,NA,Lab 6,34081,Saline_F,Saline,0,Saline,Total distance travelled,9642.76,9.173962654
+localization,NA,NA,Lab 6,34089,Saline_F,Saline,0,Saline,Total distance travelled,8628.09,9.062778439
+localization,NA,NA,Lab 6,34107,Saline_F,Saline,0,Saline,Total distance travelled,7410.62,8.910669386
+localization,NA,NA,Lab 6,33827,Saline_M,Saline,0,Saline,Total distance travelled,10613.7,9.269900898
+localization,NA,NA,Lab 6,33855,Saline_M,Saline,0,Saline,Total distance travelled,7845.71,8.967722165
+localization,NA,NA,Lab 6,33857,Saline_M,Saline,0,Saline,Total distance travelled,9371.73,9.14545299
+localization,NA,NA,Lab 6,33869,Saline_M,Saline,0,Saline,Total distance travelled,9304.36,9.138238386
+localization,NA,NA,Lab 6,33878,Saline_M,Saline,0,Saline,Total distance travelled,9378.64,9.146190042
+localization,NA,NA,Lab 6,33880,Saline_M,Saline,0,Saline,Total distance travelled,12803.6,9.45748166
+localization,NA,NA,Lab 6,34054,Saline_M,Saline,0,Saline,Total distance travelled,8922.26,9.096304557
+localization,NA,NA,Lab 6,34055,Saline_M,Saline,0,Saline,Total distance travelled,8206.7,9.012706173
+localization,NA,NA,Lab 6,34061,Saline_M,Saline,0,Saline,Total distance travelled,5872.37,8.678013579
+localization,NA,NA,Lab 6,34069,Saline_M,Saline,0,Saline,Total distance travelled,7625.14,8.939205962
+localization,NA,NA,Lab 6,34078,Saline_M,Saline,0,Saline,Total distance travelled,9628.36,9.172468189
+localization,NA,NA,Lab 6,34084,Saline_M,Saline,0,Saline,Total distance travelled,11553,9.354700422
+localization,NA,NA,Lab 6,34103,Saline_M,Saline,0,Saline,Total distance travelled,6138.79,8.722382933
+localization,NA,NA,Lab 6,34105,Saline_M,Saline,0,Saline,Total distance travelled,8257.44,9.018869891
+localization,NA,NA,Lab 7,f1-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13004,9.473012281
+localization,NA,NA,Lab 7,f11-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7331,8.899867211
+localization,NA,NA,Lab 7,f12-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,13656,9.521934264
+localization,NA,NA,Lab 7,f13-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7693,8.948066103
+localization,NA,NA,Lab 7,f14-2,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11749,9.37152341
+localization,NA,NA,Lab 7,f15-3,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8542,9.052750451
+localization,NA,NA,Lab 7,f2-3,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6315,8.750683035
+localization,NA,NA,Lab 7,f3-2,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11317,9.334061299
+localization,NA,NA,Lab 7,f4-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10971,9.303010707
+localization,NA,NA,Lab 7,f5-2,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10305,9.240384493
+localization,NA,NA,Lab 7,f6-3,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6579,8.791638037
+localization,NA,NA,Lab 7,f7-2,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6857,8.833025307
+localization,NA,NA,Lab 7,f8-3,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14538,9.58452119
+localization,NA,NA,Lab 7,f9-1,MK 0.2_F,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,6685,8.80762149
+localization,NA,NA,Lab 7,m1-2,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8441,9.040856064
+localization,NA,NA,Lab 7,m10-2,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10071,9.217415286
+localization,NA,NA,Lab 7,m11-2,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7909,8.975756631
+localization,NA,NA,Lab 7,m12-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,9965,9.206834233
+localization,NA,NA,Lab 7,m14-2,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,7874,8.971321472
+localization,NA,NA,Lab 7,m15-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,14209,9.561630846
+localization,NA,NA,Lab 7,m2-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11911,9.385217622
+localization,NA,NA,Lab 7,m3-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,11761,9.372544252
+localization,NA,NA,Lab 7,m4-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10698,9.277812087
+localization,NA,NA,Lab 7,m5-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10924,9.298717483
+localization,NA,NA,Lab 7,m6-3,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10770,9.28451977
+localization,NA,NA,Lab 7,m7-1,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,8072,8.996156562
+localization,NA,NA,Lab 7,m8-3,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,12293,9.416785274
+localization,NA,NA,Lab 7,m9-3,MK 0.2_M,MK-801,0.2,MK-801-0.2mg/kg,Total distance travelled,10623,9.270776741
+localization,NA,NA,Lab 7,f10-3,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,12325,9.419384999
+localization,NA,NA,Lab 7,f11-3,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,4907,8.498418036
+localization,NA,NA,Lab 7,f3-3,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,9533,9.162514742
+localization,NA,NA,Lab 7,f6-1,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7572,8.932212512
+localization,NA,NA,Lab 7,f7-1,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7793,8.960981174
+localization,NA,NA,Lab 7,f9-2,MK 0.3_F,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6545,8.786456678
+localization,NA,NA,Lab 7,m11-3,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7211,8.883362917
+localization,NA,NA,Lab 7,m13-3,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7861,8.969669104
+localization,NA,NA,Lab 7,m5-2,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,6170,8.727454117
+localization,NA,NA,Lab 7,m6-2,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,11398,9.34119318
+localization,NA,NA,Lab 7,m7-2,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,7065,8.862908295
+localization,NA,NA,Lab 7,m9-1,MK 0.3_M,MK-801,0.3,MK-801-0.3mg/kg,Total distance travelled,10781,9.285540605
+localization,NA,NA,Lab 7,f1-2,Saline_F,Saline,0,Saline,Total distance travelled,10028,9.213136459
+localization,NA,NA,Lab 7,f11-2,Saline_F,Saline,0,Saline,Total distance travelled,4836,8.483843212
+localization,NA,NA,Lab 7,f12-3,Saline_F,Saline,0,Saline,Total distance travelled,8319,9.026297334
+localization,NA,NA,Lab 7,f14-3,Saline_F,Saline,0,Saline,Total distance travelled,5425,8.598773178
+localization,NA,NA,Lab 7,f15-1,Saline_F,Saline,0,Saline,Total distance travelled,3990,8.29154651
+localization,NA,NA,Lab 7,f2-1,Saline_F,Saline,0,Saline,Total distance travelled,6899,8.839131753
+localization,NA,NA,Lab 7,f3-1,Saline_F,Saline,0,Saline,Total distance travelled,8023,8.990067696
+localization,NA,NA,Lab 7,f4-2,Saline_F,Saline,0,Saline,Total distance travelled,6122,8.71964412
+localization,NA,NA,Lab 7,f5-1,Saline_F,Saline,0,Saline,Total distance travelled,8517,9.049819445
+localization,NA,NA,Lab 7,f6-2,Saline_F,Saline,0,Saline,Total distance travelled,14002,9.546955456
+localization,NA,NA,Lab 7,f7-3,Saline_F,Saline,0,Saline,Total distance travelled,5559,8.623173515
+localization,NA,NA,Lab 7,f8-1,Saline_F,Saline,0,Saline,Total distance travelled,8593,9.058703197
+localization,NA,NA,Lab 7,f9-3,Saline_F,Saline,0,Saline,Total distance travelled,6318,8.751157981
+localization,NA,NA,Lab 7,m10-1,Saline_M,Saline,0,Saline,Total distance travelled,7849,8.968141414
+localization,NA,NA,Lab 7,m11-1,Saline_M,Saline,0,Saline,Total distance travelled,7361,8.903951072
+localization,NA,NA,Lab 7,m12-3,Saline_M,Saline,0,Saline,Total distance travelled,7268,8.89123643
+localization,NA,NA,Lab 7,m14-1,Saline_M,Saline,0,Saline,Total distance travelled,6232,8.737452588
+localization,NA,NA,Lab 7,m15-3,Saline_M,Saline,0,Saline,Total distance travelled,7614,8.937743937
+localization,NA,NA,Lab 7,m2-3,Saline_M,Saline,0,Saline,Total distance travelled,7158,8.875985891
+localization,NA,NA,Lab 7,m3-2,Saline_M,Saline,0,Saline,Total distance travelled,7638,8.940891068
+localization,NA,NA,Lab 7,m4-3,Saline_M,Saline,0,Saline,Total distance travelled,8349,9.02989705
+localization,NA,NA,Lab 7,m5-3,Saline_M,Saline,0,Saline,Total distance travelled,6518,8.782322859
+localization,NA,NA,Lab 7,m6-1,Saline_M,Saline,0,Saline,Total distance travelled,6401,8.764209507
+localization,NA,NA,Lab 7,m7-3,Saline_M,Saline,0,Saline,Total distance travelled,6333,8.753529337
+localization,NA,NA,Lab 7,m8-1,Saline_M,Saline,0,Saline,Total distance travelled,7048,8.860499168
+localization,NA,NA,Lab 7,m9-2,Saline_M,Saline,0,Saline,Total distance travelled,6851,8.832149906
