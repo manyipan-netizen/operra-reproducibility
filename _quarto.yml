@@ -18,9 +18,8 @@ website:
            
     favicon:  'assets/Logo_CRS_col.svg'
     
-    site-url: https://crsuzh.pages.uzh.ch/AFFORD_website/
-    repo-url: https://gitlab.uzh.ch/crsuzh/AFFORD_website 
-       
+    site-url: https://crsuzh.pages.uzh.ch/Workshop_Quarto_2024_UNIGE/
+    repo-url: https://gitlab.uzh.ch/crsuzh/Workshop_Quarto_2024_UNIGE       
     
     navbar:        
         #logo: assets/Logo_CRS_col.svg        
