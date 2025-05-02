@@ -1,6 +1,6 @@
 ---
 title: 'Installation instructions' 
-author: 'Fabio Molo an Samuel Pawel'
+author: 'Fabio Molo and Samuel Pawel'
 date: last-modified
 
 ---
