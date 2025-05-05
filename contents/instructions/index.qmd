@@ -9,13 +9,13 @@ date: last-modified
 
 ### R and RStudio
 
-To follow along in the hands-on part of the workshop, you need to have R and ```RStudio``` (v2022.07 or later) installed, which can be downloaded here: <https://posit.co/download/rstudio-desktop/>. ```Quarto``` is then included in the RStudio installation. 
+To follow along in the hands-on part of the workshop, you need to have R and RStudio (v2022.07 or later) installed, which can be downloaded here: <https://www.r-project.org/> and here: <https://posit.co/download/rstudio-desktop/>. ```Quarto``` is then included in the RStudio installation. 
 
 ### R Packages
 
 We will use the following additional R packages in the workshop. You can install them on the spot or beforehand by typing the following code in the **R console**: 
 ```r
-install.packages(c('quarto', 'dplyr', 'ggplot2'))
+install.packages(c("quarto", "dplyr", "ggplot2"))
 ``` 
 
 ### LateX for rendering PDFs (optional)
@@ -26,16 +26,16 @@ To render documents in PDF format, ```Quarto``` needs to be able to access ```La
 quarto install tinytex
 ```
 
-Additional instructions regarding ```LaTeX```, if necessary, can be found here: <https://quarto.org/docs/output-formats/pdf-basics.html>
+Additional instructions regarding ```LaTeX```, can be found here: <https://quarto.org/docs/output-formats/pdf-basics.html>
 
 
-## Alternative 1: stand-alone installation (optional)
+## Alternative 1: other development environments (optional)
 
 In the workshop we will use R and RStudio for demonstration, but ```Quarto``` can also be used with Python instead of R and with VS Code, Jupyter Notebooks or other development environments instead of RStudio. If this is of interest to you, the following page is a good starting point: <https://quarto.org/docs/get-started/hello/vscode.html>
 
 ## Alternative 2: working from the Posit cloud (optional)
 
-If you do not want to install anything on your computer you can also use a cloud version of R and RStudio. Sign up at the **Posit Cloud** <https://login.posit.cloud> and:
+If you do not want to install anything on your computer you can also use a cloud version of R and RStudio. Sign up at the **Posit Cloud** (<https://login.posit.cloud>) and:
 
 -  register with your email address and choose a password;
 -  select the "Free Cloud" subscription option.

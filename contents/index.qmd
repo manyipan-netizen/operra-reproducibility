@@ -1,18 +1,14 @@
 ---
-title: Reproducible and dynamic reporting with Quarto 
-subtitle: Workshop at UNIGE 
+title: Reproducible and Dynamic Reporting with R and Quarto - Getting started
+subtitle: Workshop at UZH
 sidebar: false
 date: last-modified
 author: 
   - name: 'Gorka Fraga Gonzalez'
     orcid: 0000-0002-1857-8607
-    #affiliations:
-      #- name: Center for Reproducible Science, University of Zurich
 
   - name: 'Fabio Molo'
     orcid: 0000-0001-9320-5854
-#    affiliations:
-      #- name: Center for Reproducible Science, University of Zurich
 
   - name: 'Samuel Pawel'
     orcid: 0000-0003-2779-320X
@@ -27,7 +23,7 @@ author:
      # href: "https://www.crs.uzh.ch/en.html"
   #  - icon:  git
   #    aria-label: Gitlab
-  #    href: "https://gitlab.uzh.ch/crsuzh/Workshop_Quarto_2024_UNIGE"
+  #    href: "https://gitlab.uzh.ch/crsuzh/workshop-quarto-2025-uzh"
 #    - icon: linkedin
 #      aria-label: "LinkedIn"
  #     href: "https://www.linkedin.com/company/center-for-reproducible-science"  
@@ -53,14 +49,15 @@ toc: false
 page-layout: full
 ---
 
-Welcome to the workshop on Reproducible and dynamic reporting with Quarto. 
+- Date: 15 May 2025, 14:15 -- 17:00
+- Location: University of Zurich, room RAA-E-30
 
-Date: 15 May 2025, 14:15 -- 17:00
+In this workshop, the Center for Reproducible Science of the University of Zurich will introduce the participants to writing reproducible manuscripts and analyses using R and Quarto. Such dynamic reporting tools help researchers make their analyses transparent, shareable, and reproducible, and avoid error-prone and laborious copying and pasting of numbers, tables, figures, and other results.
 
-Location: University of Zurich, room RAA-E-30.
+The workshop will begin with an introductory presentation on the purpose and fundamentals of dynamic reporting. The second part is hands-on, and participants are supported to follow along on their own computers and produce a minimally viable reproducible report. Finally, we will demonstrate an advanced publishing workflow using version control and containerization.
 
+# Installation Instructions and Slides
 
- 
 ::: {#main-listing}
 :::
 

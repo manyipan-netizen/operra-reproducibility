@@ -1,22 +1,21 @@
-# Workshop on reproducible and dynamic reporting with Quarto on May 15, 2025 at the University of Zurich
+# Workshop on Reproducible and Dynamic Reporting with R and Quarto on May 15, 2025 at the University of Zurich
 
 The website for this workshop is: <https://crsuzh.pages.uzh.ch/workshop-quarto-2025-uzh>
 
 
 # Citation 
 Cite this workshop as
-> ADD CITATION
+> Molo, F., Fraga Gonzalez, G., Pawel, Samuel. 2025. Reproducible and Dynamic Reporting with R and Quarto - Getting started. Workshop at the University of Zurich.
 
 A BibTeX entry is given by
 
 ```
 @misc{,
-  author       = {},
-  title        = {Workshop on Dynamic Reporting with Quarto at UZH},
+  author       = {Fabio Molo and Gorka Fraga-Gonzalez and Samuel Pawel},
+  title        = {Workshop `Reproducible and Dynamic Reporting with R and Quarto -- Getting started' at UZH},
   month        = May,
   year         = 2025,
-  publisher    = {},
   doi          = {},
-  url          = {}
+  url          = {https://crsuzh.pages.uzh.ch/workshop-quarto-2025-uzh/}
 }
 ```
