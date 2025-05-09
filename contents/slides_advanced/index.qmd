@@ -1,7 +1,7 @@
 ---
 title: "Outro: Advanced dynamic reporting workflows"
 subtitle: "Adding automation (make), version control (git), and containerization (Docker)"
-author: "Samuel Pawel, Fabio Molo, Gorka Fraga Gonzalez"
+author: "Samuel Pawel, Fabio Molo, Gorka Fraga González"
 preview-links: true
 listing: 
   sort-ui: false
@@ -12,8 +12,8 @@ listing:
   id: 'slides'
 ---
 
-<!-- <iframe allowfullscreen class="pdf" src="Advanced_workflows.pdf" width="100%" height="700px" style="border: 2px solid black;"> -->
+<iframe allowfullscreen class="pdf" src="Advanced_workflows.pdf" width="100%" height="700px" style="border: 2px solid black;">
 
-<!-- </iframe> -->
+</iframe>
 
 #### Go to online slides in full screen

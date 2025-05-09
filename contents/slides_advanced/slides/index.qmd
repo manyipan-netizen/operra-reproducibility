@@ -1,7 +1,7 @@
 ---
-title: "Advanced dynamic reporting workflows"
-subtitle: "Version control (git), automation (make), and containerization (Docker)"
-author: "Samuel Pawel, Fabio Molo, Gorka Fraga Gonzalez"
+title: "Advanced workflows"
+subtitle: "Combining dynamic reporting with version control, automation, and containerization"
+author: "Samuel Pawel, Fabio Molo, Gorka Fraga González"
 date:  "May 15, 2025"
 date-format: long
 preview-links: true
@@ -32,176 +32,272 @@ bibliography: references.bib
 nocite: |
   @FragaGonzalez2025
   @peikertRepro2023
+  @Nust2020
+  @Boettiger2017
+  @FragaGonzalez2024
+  @Hofmann2023
+  @quarto2025
 ---
 
+## Reproducibility is a spectrum
 
-### Dynamic reporting solves copy-paste problem, but ...
+![](img/comp-repro-spectrum.png){fig-align="center" width="323"}
 
-::: incremental
-- How to keep track of different **file versions**?
-  * `paper-final.qmd` → `paper-final2.qmd` → `paper-final2b.qmd`
-  + Solution: **Git**
+. . .
 
-- How to know which files to run in which **order**?
-  * `functions.qmd`, `analysis.qmd`, `plots.qmd`, `paper.qmd`
-  + Solution: **Make**
+-   Goal today: Understanding **what is possible** towards the right side
 
-- How to make sure code still runs when **software versions** change?
-  * `Today`: R version 4.5, ggplot2 3.5.2 → `Next year`: R version ?, ggplot2 ?
-  + Solution: **Docker**
-
-:::
+-   ~~Goal today: Deep technical understanding of advanced workflows~~
 
 ------------------------------------------------------------------------
 
-## Goals
+## Dynamic reporting solves copy-paste problem, but ...
 
-* Computational reproducibility is a spectrum
-
-* Understanding what is possible towards the right side
-
-* ~~Deep technical understanding of advanced reproducible workflows~~
+::: incremental
+-   How to keep track of different **file versions**?
+    -   `paper-final.qmd` → `paper-final2.qmd` → `paper-final2b.qmd`
+    -   Solution: **Git**
+-   How to know which files to run in which **order**?
+    -   `functions.qmd`, `analysis.qmd`, `plots.qmd`, `paper.qmd`
+    -   Solution: **Make**
+-   How to make sure code still runs when **software versions** change?
+    -   `Today`: R version 4.5, ggplot2 3.5.2 → `Next year`: R version ?, ggplot2 ?
+    -   Solution: **Docker**
+:::
 
 ------------------------------------------------------------------------
 
 ## Version control with Git
 
+::::::: columns
+:::: {.column width="70%"}
+::: incremental
+-   **De facto standard** version control system
 
-:::: {.columns}
+-   Can **go back in time** to previous versions
 
-::: {.column width="75%"}
-- Can **go back in time** to previous versions
+-   Can **track changes** between versions
 
-- Can **track changes** between versions
+-   Can **branch and merge**
 
-- Also useful for **collaboration** and **file transfer**
+-   Useful for **collaboration** and **file transfer**
 
-- **Command line** interface
+-   **Command line** interface (learning curve)
 
-- **Graphical interface** in many editors/IDEs (e.g., RStudio, VS Code)
+-   **Graphical interface** in many editors/IDEs (e.g., RStudio, VS Code)
 
-- **Git** (software) ≠ **GitHub**/**GitLab** (Git repository hosting services)
+-   **Git** (software) ≠ **GitHub**/**GitLab** (Git repository hosting services)
 
-- Snapshots enable **persistently archiving** (with DOI) on data repositories (e.g., Zenodo)
+-   Snapshots enable **persistently archiving** (with DOI) on data repositories (e.g., Zenodo)
 
 <!-- - Git repository: directory with `.git/` subdirectory -->
-
 :::
-
-::: {.column width="25%"}
-![[<https://git-scm.com/downloads/logos>]{style="font-size:0.7em"}](img/Git-logo.png)
-
-![[<https://commons.wikimedia.org/wiki/File:Git_operations.svg>]{style="font-size:0.7em"}](img/Git_operations.png)
-:::
-
 ::::
 
+:::: {.column width="30%"}
+![[<https://git-scm.com/downloads/logos>]{style="font-size:0.6em"}](img/Git-logo.png){fig-align="center" width="150"}
+
+![[@Turing2024]{style="font-size:0.6em"}](img/git-turing-way.png){fig-align="center" width="500"}
+
+::: fragment
+![[<https://commons.wikimedia.org/wiki/File:Git_operations.svg>]{style="font-size:0.7em"}](img/Git_operations.png)
+:::
+::::
+:::::::
 
 ------------------------------------------------------------------------
 
 ## Automation with Make
 
-- Tool for managing **computational recipes**
+-   Tool for managing **computational recipes**
 
-- Automating multiple steps into one
-
-Example: How to compile manuscript PDF
-
-1. `data_cleaned.csv`: Run `prep_data.R` on `data.csv`
-2. `manuscript.pdf`: Run Quarto render on `manuscript.qmd`
+-   **Automating multiple steps** into one
 
 . . .
 
-Makefile
-```Make
-all: manuscript.pdf
+:::::: columns
+::: {.column width="50%"}
+> Arrabbiata sauce, or sugo all'arrabbiata in Italian, is a spicy sauce for pasta made from garlic, tomatoes, and dried red chili peppers cooked in olive oil.
 
-manuscript.pdf: data_cleaned.csv manuscript.qmd
-  quarto render manuscript.qmd
-  
-data_cleaned.csv: prep_data.R data.csv
-  Rscript -e 'source("prep_data.R")'
+[https://en.wikipedia.org/wiki/Arrabbiata_sauce](https://en.wikipedia.org/wiki/Arrabbiata_sauce){style="font-size:0.7em"}
+:::
+
+:::: {.column width="50%"}
+::: fragment
+Makefile
+
+``` makefile
+arrabiata.pdf: arrabiata.qmd sauce.csv pasta.R 
+  quarto render arrabiata.qmd
+
+sauce.csv: cook.R tomatoes.zip aromatics.yaml
+  Rscript -e "source(cook.R)"
+
+aromatics.yaml: sizzle.py garlic.txt chili.json
+  python sizzle.py garlic.txt
+  python sizzle.py chili.json
 ```
+:::
+::::
+::::::
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"}   -->
+
+<!-- > Use the cleaned data to compile the manuscript PDF with quarto -->
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"}    -->
+
+<!-- ::: {.fragment} -->
+
+<!-- Makefile -->
+
+<!-- ```makefile -->
+
+<!-- all: manuscript.pdf -->
+
+<!-- manuscript.pdf: data_cleaned.csv manuscript.qmd -->
+
+<!--   quarto render manuscript.qmd -->
+
+<!-- data_cleaned.csv: prep_data.R data.csv -->
+
+<!--   Rscript -e 'source("prep_data.R")' -->
+
+<!-- ``` -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- :::: -->
 
 ------------------------------------------------------------------------
 
-### Containerization with Docker
+## Containerization with Docker
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="75%"}
-- **Software containers** encapsulate computational environment
+-   **Software containers** encapsulate computational environment
 
-- Computational environment components:
-  * R and R packages
-  * Numerical software libraries (e.g., LAPACK, BLAS)
-  * other software (e.g., LaTeX)
-  
-- **Docker** is a popular tool for containerization
+-   Computational environment components:
 
-- **Rocker** is a very well-maintained image for R ecosystem
+    -   Operating system
+    -   R and R packages
+    -   Numerical software libraries (e.g., LAPACK, BLAS)
+    -   other software (e.g., LaTeX, Java)
+
+-   **Docker** is a popular tool for containerization
+
+-   **Rocker** is a Docker image for R (<https://rocker-project.org/>)
 
 Dockerfile
-```Docker
 
+``` dockerfile
+# Uses a Rocker container image with R version 4.4 
+FROM rocker/verse:4.4
+
+# Install R package versions at time when R 4.4 was up-to-date
+RUN install2.r ggplot2 dplyr kableExtra
 ```
-
 :::
 
 ::: {.column width="25%"}
 ![[<https://commons.wikimedia.org/wiki/File:Docker-svgrepo-com.svg>]{style="font-size:0.7em"}](img/docker.png)
 :::
-
-::::
+:::::
 
 ------------------------------------------------------------------------
 
-### Putting it all together
+## Putting it all together
 
+:::::: columns
+::: {.column width="55%"}
 ![Modified from @Peikert2021](img/workflow-quarto.png)
-
-------------------------------------------------------------------------
-
-## Demo
-
-- Robustness reproduction: <https://gitlab.uzh.ch/crsuzh/nhb-replication>
-
-- Handling Missingness in Simulation Studies: <https://github.com/SamCH93/missSim>
-
-------------------------------------------------------------------------
-
-## Summary
-
-- Dynamic reporting, version control, automation, containerization improve computational reproducibility, faciliate reusability, and collaboration
-
-
-------------------------------------------------------------------------
-
-### The Swiss Reproducibility Network Academy
-
-
-:::: {.columns}
-
-::: {.column width="75%"}
-- Early career researchers section of the SwissRN
-
-- Goal 1: Connect young researchers interested in reproducibility in Switzerland
-- Goal 2: Improve reproducibility of research in Switzerland
-
-- How to join? 
-  * young researchers based in Switzerland (working language is English)
-  * strong interest in good research practices and reproducibility 
-  * every field is welcome (diversity is the key!)
-
-- More information: <https://www.swissrn.org/contents/academy/>
 :::
 
-::: {.column width="25%"}
+:::: {.column width="45%"}
+::: fragment
+Demo
+
+``` {.bash style="font-size:0.85em"}
+# clone git repository
+git clone git@gitlab.uzh.ch:crsuzh/zurich-names.git
+
+# enter project repository
+cd zurich-names
+
+# run automated analyses
+make docker-report
+```
+
+→ `report.html` and `report.pdf`
+
+[https://gitlab.uzh.ch/crsuzh/zurich-names](https://gitlab.uzh.ch/crsuzh/zurich-names){style="font-size:0.65em"}
+:::
+::::
+::::::
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ## Gallery     -->
+
+<!-- - Robustness reproduction: <https://gitlab.uzh.ch/crsuzh/nhb-replication> -->
+
+<!-- - Handling Missingness in Simulation Studies: <https://github.com/SamCH93/missSim> -->
+
+<!-- - Power priors for replication studies: <https://github.com/SamCH93/ppReplication> -->
+
+------------------------------------------------------------------------
+
+## Conclusions
+
+-   Dynamic reporting + version control + automation + containerization
+
+    -   improve **reproducibility**, **reuseability**, **collaboration**
+    -   lends research more **transparency**, **credibility**
+
+. . .
+
+-   There is a **learning curve**, but ...
+
+    -   start simple and learn **step-by-step**!
+
+    -   constantly **evolving tools**
+
+    -   invested learning time can **save you time** in the future!
+
+    -   skills are **useful in/outside Academia**!
+
+------------------------------------------------------------------------
+
+## The Swiss Reproducibility Network Academy
+
+::::: columns
+::: {.column width="80%"}
+-   **Early career** researchers section of the SwissRN
+
+-   Goal 1: Connect young researchers interested in **reproducibility in Switzerland**
+
+-   Goal 2: Improve reproducibility of research in Switzerland
+
+-   How to join?
+
+    -   young researchers in **Switzerland** (working language: English)
+    -   **interest** in improving research and reproducibility
+    -   **every field** is welcome (diversity is the key!)
+
+-   More information: <https://www.swissrn.org/contents/academy/>
+:::
+
+::: {.column width="20%"}
 ![](img/swissrn_logo.png)
 :::
-
-::::
+:::::
 
 ------------------------------------------------------------------------
 
-### References {.smaller}
+## References {.smaller}

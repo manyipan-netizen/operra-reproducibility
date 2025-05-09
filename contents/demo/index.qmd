@@ -2,7 +2,7 @@
 title: Demo
 subtitle: Reproducible and Dynamic Reporting with R and Quarto
 author:
-  - name: 'Gorka Fraga Gonzalez'
+  - name: 'Gorka Fraga González'
     orcid: 0000-0002-1857-8607
 
   - name: 'Fabio Molo'
@@ -14,7 +14,6 @@ format:
   html:
     toc-depth: 4
   pdf: default
-  #revealjs: default
 execute: 
   eval: true
 bibliography: references.bib
@@ -28,7 +27,7 @@ This demo requires R and Quarto Visit the [instructions](../instructions/index.q
 
 [Run the code below in the **R console** (it may take a couple of minutes)]{style="color: red;"}
 
-``` r
+```r
 install.packages(c("dplyr", "ggplot2", "kableExtra"))
 ```
 
@@ -74,7 +73,7 @@ format:
 
 Quarto uses Markdown syntax to structure and format text. For example,
 
-```markdown
+``` markdown
 # This is a title
 
 Two stars will render a word **bold**. 
@@ -93,12 +92,12 @@ produces
 
 # This is a title
 
-Two stars will render a word **bold**. 
+Two stars will render a word **bold**.
 
 We can also create lists:
 
-- Element 1
-- Element 2
+-   Element 1
+-   Element 2
 
 A useful link is this [Markdown guide](https://quarto.org/docs/authoring/markdown-basics.html)
 
@@ -165,13 +164,13 @@ summaries |>
 
 #### Plot the data
 
-We can add a plot on the most common names between 2021 and 2023. Note that we add some code execution options for a caption and a label that we can use to cite this figure in the text.
+We can add a plot on the most common names between 2021 and 2024. Note that we add some code execution options for a caption and a label that we can use to cite this figure in the text.
 
 ```{r}
 #| label: fig-names
-#| fig-cap: "Most common names of Zurich newborns in 2021-2023."
+#| fig-cap: "Most common names of Zurich newborns in 2021-2024."
 #| message: false
-datclean |> 
+datclean |>
   filter(year > 2020) |>
   group_by(sex, name) |>
   summarise(births = sum(births)) |>
@@ -238,30 +237,37 @@ Nobody knows all the options by heart, use the [Quarto documentation](https://qu
 
 Try to explore different options for code execution:
 
--   [ ] Hide all
--   [ ] Print all code but do not execute it
--   [ ] Fold all code (accessible by clicking on a button when saved an HTML)
--   [ ] Hide the code reading the table, show the rest
--   [ ] **Challenge** render the report as both an HTML document and as PDF
+- [ ] Hide all
+- [ ] Print all code but do not execute it
+- [ ] Fold all code (accessible by clicking on a button when saved as HTML)
+- [ ] Hide only the code that generates the table
+- [ ] **Challenge**: render the report as both HTML and PDF
 
-# Part II - Explore other examples
+# Practical tips
+
+- Always `sessionInfo()` or similar to see which packages/environment was used to generate a report
+- Use relative paths
+- Recompile your reports frequently to spot errors quickly
+- ....
+
+# Optional: Exploring other examples
 
 The are many examples of dynamically generated reports online. Try exploring the links below.
 
--   Example 1. Reproducible report in HTML using R Markdown (SNSF report: <https://data.snf.ch/stories/open-research-data-2023-en.html>)
+- Example 1. Reproducible report in HTML using R Markdown: <https://data.snf.ch/stories/open-research-data-2023-en.html>
 
--   Example 2. Reproducible report in pdf using knitr (robustness check analysis: <https://gitlab.uzh.ch/fabio.molo/nhb-replication>.)
+- Example 2. Reproducible PDF report using knitr: <https://gitlab.uzh.ch/fabio.molo/nhb-replication>
 
--   Example 3. Website with course materials: <https://github.com/avehtari/BDA_course_Aalto/tree/master>
+- Example 3. Website with course materials: <https://github.com/avehtari/BDA_course_Aalto/tree/master>
 
--   Example 4. Reproducible slides with Quarto: <https://github.com/kjhealy/flipbookr-quarto/tree/main?tab=readme-ov-file>.
+- Example 4. Reproducible slides with Quarto: <https://github.com/kjhealy/flipbookr-quarto/tree/main?tab=readme-ov-file>.
 
 Try to reflect about the following questions:
 
 -   [ ] Can you easily find the repository with the source files?
--   [ ] What dynamic reporting tool they use?
--   [ ] Can you access the output, rendered documents easily ?
+-   [ ] Which dynamic reporting tools are used?
+-   [ ] Can you access the outputs easily?
 -   [ ] Do they use some advanced features for dynamic reporting or computational reproducibility?
--   [ ] What would be the workflow to reproduce those reports?
+-   [ ] What would be the workflow to reproduce these reports?
 
 # References
