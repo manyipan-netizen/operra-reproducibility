@@ -1,5 +1,5 @@
 ---
-title: Reproducible and Dynamic Reporting with R and Quarto - Getting started
+title: Reproducible and Dynamic Reporting with R and Quarto - Getting Started
 subtitle: Workshop at UZH
 sidebar: false
 date: last-modified
@@ -24,8 +24,9 @@ listing:
     # Temporarily hidden sections
     # - ./slides_intro/*.qmd
     # - ./demo/*.qmd
-    # - ./slides_outro/*.qmd
     # - ./slides_advanced/*.qmd
+    # Older sharing and publishing slides
+    # - ./slides_outro/*.qmd
 toc: false
 page-layout: full
 ---

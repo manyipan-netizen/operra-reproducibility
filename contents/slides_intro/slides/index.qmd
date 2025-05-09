@@ -1,12 +1,12 @@
 ---
 title: | 
-  Reproducible and dynamic reporting \
-  with R and Quarto -- getting started
+  Reproducible and Dynamic Reporting \
+  with R and Quarto -- Getting Started
 subtitle: A Workshop by the Center for Reproducible Science
 date:  "May 15, 2025"
 date-format: long
 author:
-  - Gorka Fraga Gonzalez
+  - Gorka Fraga González
   - Fabio Molo
   - Samuel Pawel
 editor: source
@@ -24,8 +24,8 @@ format:
     menu: true
     pdf: true
     smaller: true
+    auto-stretch: false
     logo: "img/uzh_logo_d_pos_web_assoc.jpg"
-    #theme: "custom-theme.scss"
     embed-resources: true
     progress: true
     slide-number: true
@@ -37,21 +37,21 @@ format:
 bibliography: references.bib
 ---
 
-### Computational reproducibility
+## Computational reproducibility
 
-A (too) simple definition: 
+A (too) simple definition:
 
 ::: incremental
-- The **same analysis**
-- of the **same data**
-- obtains the **same results**
+-   the **same analysis**
+-   of the **same data**
+-   produces the **same results**
 :::
 
 ------------------------------------------------------------------------
 
-### Example
+## Example
 
-![@samuel2024](img/samuel2024.png)
+![](img/samuel2024.png){fig-align="center" width="75%"}
 
 ::: incremental
 -   Attempted to rerun **22,578 Jupyter notebooks** associated with 3,467 publications
@@ -62,15 +62,25 @@ A (too) simple definition:
 
 ------------------------------------------------------------------------
 
-### Context and Terminology
+## Structure of this workshop
 
-<br>
+1.  Introduction → What is dynamic reporting?
 
-![@theturingwaycommunity2022](img/turingway_reproducible_matrix.jpg)
+2.  Demonstration → How to use it?
+
+3.  Advanced workflows → What else is possible?
 
 ------------------------------------------------------------------------
 
-### Reproducibility
+## Context and Terminology
+
+<br>
+
+![@theturingwaycommunity2022](img/turingway_reproducible_matrix.jpg){fig-align="center" width="75%"}
+
+------------------------------------------------------------------------
+
+## Reproducibility
 
 ![](img/reproducible.png){.absolute right="0" top="0" height="75"}
 
@@ -78,7 +88,7 @@ A (too) simple definition:
 
 ------------------------------------------------------------------------
 
-### Replicability: Example
+## Replicability: Example
 
 ![](img/replicable.png){.absolute right="0" top="0" height="75"}
 
@@ -86,7 +96,7 @@ A (too) simple definition:
 
 ------------------------------------------------------------------------
 
-### Robustness: Example
+## Robustness: Example
 
 ![](img/robust.png){.absolute right="0" top="0" height="75"}
 
@@ -102,15 +112,17 @@ A (too) simple definition:
 
 ------------------------------------------------------------------------
 
-### Generalizability: Example
+## Generalizability: Example
 
 ![](img/generalizable.png){.absolute right="0" top="0" height="75"}
 
-![](img/healthcare-AI_1.png){width="66%"} ![](img/healthcare-AI_2.png)
+![](img/healthcare-AI_1.png){width="60%" fig-align="center"}
+
+![](img/healthcare-AI_2.png){width="40%" fig-align="center"}
 
 ------------------------------------------------------------------------
 
-### Threats
+## Threats
 
 :::::: {.columns align="center"}
 :::: {.column width="50%"}
@@ -128,9 +140,9 @@ A (too) simple definition:
 
 ------------------------------------------------------------------------
 
-### Intermediary results
+## Every step counts!
 
-:::: incremental
+::::: incremental
 ::: fragment
 Reproducible research is hard and may feel overwhelming
 :::
@@ -138,21 +150,21 @@ Reproducible research is hard and may feel overwhelming
 ::: fragment
 Do not despair! With every step...
 
-- you are already one step ahead
-- you already improve the quality of your research (and of your life)
-- you learn broadly applicable technical skills
+-   you are already **one step ahead**
+-   you **already improve** the quality of your research (and of your life)
+-   you learn **broadly applicable technical skills**
 :::
-::::
+:::::
 
 ------------------------------------------------------------------------
 
-### A non-dynamic reporting workflow
+## A non-dynamic reporting workflow
 
 ![](img/non-dynamic-workflow.jpg)
 
 ------------------------------------------------------------------------
 
-### Typical problems
+## Typical problems
 
 :::::: {.columns align="center"}
 ::: {.column width="40%" align="top"}
@@ -161,46 +173,54 @@ Do not despair! With every step...
 
 :::: {.column width="60%"}
 ::: incremental
--   unclear execution order\
--   repeated copy-pasting, maybe errors\
--   unclear further processing of images and tables\
+-   **unclear** execution order
+
+-   **time-consuming** copy-pasting
+
+-   **error-prone** copy-pasting
+
+<!-- -   unclear further processing of images and tables\ -->
 :::
 ::::
 ::::::
 
 ------------------------------------------------------------------------
 
-## Dynamic reporting: the ambition {.center}
+## Dynamic reporting: The ambition {.center}
 
 [`raw data` $\rightarrow$ dynamic reporting file $\rightarrow$ `manuscript`]{style="font-size: 1.5em;"}
 
 ------------------------------------------------------------------------
 
-### A dynamic reporting workflow
+## A dynamic reporting workflow
 
 ![](img/dynamic-workflow.jpg)
 
 ------------------------------------------------------------------------
 
-### Components of a dynamic report
+## Components of a dynamic report
 
 ![](img/dynamic_reporting_components.png)
 
 ------------------------------------------------------------------------
 
-### Text: common markup languages
+## Text: common markup languages
 
 ![](img/markup-languages.png)
 
 ------------------------------------------------------------------------
 
-### Some implementations - history
-
-![](img/implementation-timeline.png){width="733"}
+## Some implementations - history
+ \
+ \
+ 
+![](img/implementation-timeline.png){width="80%" fig-align="center"}
 
 ------------------------------------------------------------------------
 
-### Some implementations
+## Some implementations
+\
+\
 
 |   | File | Code | Markup | Output formats |
 |---------------|---------------|---------------|---------------|---------------|
@@ -213,22 +233,46 @@ Do not despair! With every step...
 
 ------------------------------------------------------------------------
 
-### Why Quarto?
+## Why Quarto?
+::::: columns
+::: {.column width="75%"}
 
--   open source
--   modern, with new features being developed\
--   easy to use with multiple code languages\
--   general-purpose scientific publishing system (for slides, websites, etc.)
+-   **open source**
+-   **modern**, with new features being developed
+-   **easy-to-use**
+-   **multiple programming languages**  (e.g., R, Python, Julia)
+-   **multiple editors/IDEs** (e.g., RStudio, VS code)
+-   **general-purpose** scientific publishing system (e.g., articles, slides, websites)
+:::
+
+::: {.column width="25%"}
+![[<https://quarto.org/quarto.png>]{style="font-size:0.6em"}](img/quarto.png){fig-align="center"}
+:::
+::::
+
+
 
 ------------------------------------------------------------------------
 
-### Dynamic reporting in Quarto / RStudio
+## Dynamic reporting with Quarto in RStudio
 
 ![CC by [Desirée De Leon](https://github.com/dcossyleon)](img/rstudio-rmarkdown.png)
 
 ------------------------------------------------------------------------
 
-### Additional Resources
+## Where to start?
+
+1.  Install Quarto (<https://quarto.org/docs/get-started/>)
+
+2.  Set up a minimal Quarto workflow for one of your projects
+
+3.  Document your steps, read guides, ask for help
+
+4. Live a dynamic and reproducible life!
+
+------------------------------------------------------------------------
+
+## Additional Resources
 
 -   CRS Primer on dynamic reporting: <https://doi.org/10.5281/zenodo.7565735>\
 -   Quarto intro tutorial: <https://quarto.org/docs/get-started/hello/rstudio.html>\
@@ -241,33 +285,34 @@ Do not despair! With every step...
 
 ------------------------------------------------------------------------
 
-### The Swiss Reproducibility Network Academy
+## The Swiss Reproducibility Network Academy
 
 ::::: columns
-::: {.column width="75%"}
--   Early career researchers section of the SwissRN
+::: {.column width="80%"}
+-   **Early career** researchers section of the SwissRN
 
--   Goal 1: Connect young researchers interested in reproducibility in Switzerland
+-   Goal 1: Connect young researchers interested in **reproducibility in Switzerland**
 
 -   Goal 2: Improve reproducibility of research in Switzerland
 
 -   How to join?
 
-    -   young researchers based in Switzerland (working language is English)
-    -   strong interest in good research practices and reproducibility
-    -   every field is welcome (diversity is the key!)
+    -   young researchers in **Switzerland** (working language: English)
+    -   **interest** in improving research and reproducibility
+    -   **every field** is welcome (diversity is the key!)
 
 -   More information: <https://www.swissrn.org/contents/academy/>
 :::
 
-::: {.column width="25%"}
+::: {.column width="20%"}
 ![](img/swissrn_logo.png)
 :::
 :::::
 
+
 ------------------------------------------------------------------------
 
-### The Center for Reproducible Science
+## The Center for Reproducible Science
 
 ::::: {.columns align="center"}
 ::: {.column width="50%"}
@@ -290,4 +335,4 @@ Do not despair! With every step...
 
 ------------------------------------------------------------------------
 
-### References {.smaller}
+## References {.smaller}

@@ -11,7 +11,7 @@ A BibTeX entry is given by
 
 ```
 @misc{,
-  author       = {Fabio Molo and Gorka {Fraga González} and Samuel Pawel},
+  author       = {Fabio Molo and Gorka {Fraga Gonz\'{a}lez} and Samuel Pawel},
   title        = {Workshop ``Reproducible and Dynamic Reporting with R and Quarto -- Getting started'' at UZH},
   month        = May,
   year         = 2025,

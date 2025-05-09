@@ -32,11 +32,12 @@ website:
           #   href: ./slides_intro/index.qmd
           # - text: "Demo"
           #   href: ./demo/index.qmd
-          # - text: "Outro"            
-          #   href: ./slides_outro/index.qmd
           # - text: "Advanced"
           #   href: ./slides_advanced/index.qmd
-                 
+          # Older sharing and publishing slides
+          # - text: "Outro"
+          #   href: ./slides_outro/index.qmd
+
 format:
     html:         
         grid:

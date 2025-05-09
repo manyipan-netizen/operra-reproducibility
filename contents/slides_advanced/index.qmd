@@ -1,6 +1,6 @@
 ---
-title: "Outro: Advanced dynamic reporting workflows"
-subtitle: "Adding automation (make), version control (git), and containerization (Docker)"
+title: "Outro: Advanced Workflows"
+subtitle: "Combining dynamic reporting with version control, automation, and containerization"
 author: "Samuel Pawel, Fabio Molo, Gorka Fraga González"
 preview-links: true
 listing: 
