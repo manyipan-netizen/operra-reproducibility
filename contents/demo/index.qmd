@@ -246,9 +246,10 @@ datclean |>
 Note that we added chunk options to create a caption (`#| fig-cap: "Most common names of Zurich newborns in 2021-2024."`) and a label (`#| label: fig-label`). We can then refer to [@fig-names] in the text using `[@fig-label]`. Two other important options are `fig-height` and `fig-width` which allow us to specify the height and width of our figures. Here we have specified `fig-height: 5` which sets the height of the plot to 5 inches.
 
 ::: {.callout-note appearance="minimal"}
-## Optional exercise
+## Optional exercises
 
-Add a label to the previously generated table and refer to it in the text (table labels need to start with `tab` instead of `fig`!).
+- Change the height and width of your plot
+- Add a label to the previously generated table and refer to it in the text (table labels need to start with `tab` instead of `fig`!).
 :::
 
 ### Another plot
@@ -279,7 +280,7 @@ Try it with your own name!
 
 ### Inline code
 
-A "killer-feature" of dynamic reports is the possibility to add [inline code](https://quarto.org/docs/computations/inline-code.html). This allows us to dynamically insert data summaries into text, avoiding tedious and error-prone copy-and-pasting. For example,
+A "killer-feature" of dynamic reporting is the possibility to add [inline code](https://quarto.org/docs/computations/inline-code.html). This allows us to dynamically insert data summaries into text, avoiding tedious and error-prone copy-and-pasting. For example,
 
 > In 2023, the most common male name was \``` r filter(summaries, year == 2023, sex == "male")$name` `` whereas the most common female name was \``` r filter(summaries, year == 2023, sex == "female")$name` ``.
 
@@ -287,7 +288,7 @@ produces
 
 > In 2023, the most common male name was `r filter(summaries, year == 2023, sex == "male")$name` whereas the most common female name was `r filter(summaries, year == 2023, sex == "female")$name`.
 
-Note that, instead of performing computations inside an inline code chunk, it is often advisable to perform computations in a separate code chunk, save the results to a variable, and then print the variable in the inline code chunk.
+Note that, instead of performing computations within an inline code chunk, it is often advisable to perform computations in a separate code chunk, save the results to a variable, and then print the variable in the inline code chunk.
 
 ::: {.callout-note appearance="minimal"}
 ## Optional exercise

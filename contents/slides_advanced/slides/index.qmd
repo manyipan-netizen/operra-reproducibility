@@ -17,6 +17,7 @@ format:
   revealjs:
     menu: true
     pdf: true
+    code-line-numbers: false
     smaller: true
     fig-align: left
     logo: "img/uzh_logo_d_pos_web_assoc.jpg"
@@ -55,15 +56,15 @@ nocite: |
 
 ::: incremental
 -   How to keep track of different **file versions**?
-    -   `paper-final.qmd` → `paper-final2.qmd` → `paper-final2b.qmd`
+    -   `paper-final.qmd` → `paper-final2.qmd` → `paper-final2b.qmd` → 😱
     -   Solution: **Git**
 -   How to know which files to run in which **order**?
-    -   `functions.qmd`, `analysis.qmd`, `plots.qmd`, `paper.qmd`
+    -   `functions.qmd`, `analysis.qmd`, `plots.qmd`, `paper.qmd`, 🤔
     -   Solution: **Make**
 -   How to make sure code still runs when **software versions** change?
-    -   `Today`: R version 4.5, ggplot2 3.5.2 → `Next year`: R version ?, ggplot2 ?
+    -   `Today`: R version 4.5, ggplot2 3.5.2 → `Next year`: R version ❓, ggplot2  ❓
     -   Solution: **Docker**
-- Very nice paper on such a workflow: @Peikert2021
+-   Very nice paper on such a workflow: @Peikert2021
 :::
 
 ------------------------------------------------------------------------
@@ -98,7 +99,7 @@ nocite: |
 :::: {.column width="30%"}
 ![[<https://git-scm.com/downloads/logos>]{style="font-size:0.6em"}](img/Git-logo.png){fig-align="center" width="150"}
 
-![[@Turing2024]{style="font-size:0.6em"}](img/git-turing-way.png){fig-align="center" width="500"}
+![@Turing2024](img/git-turing-way.png){fig-align="center" width="500"}
 
 ::: fragment
 ![[<https://commons.wikimedia.org/wiki/File:Git_operations.svg>]{style="font-size:0.7em"}](img/Git_operations.png)
@@ -126,21 +127,30 @@ nocite: |
 :::: {.column width="50%"}
 ::: fragment
 Makefile
-
 ``` makefile
 arrabiata.pdf: arrabiata.qmd sauce.csv pasta.R 
   quarto render arrabiata.qmd
 
 sauce.csv: cook.R tomatoes.zip aromatics.yaml
-  Rscript -e "source(cook.R)"
+  R -e "source(cook.R)"
 
 aromatics.yaml: sizzle.py garlic.txt chili.json
   python sizzle.py garlic.txt
   python sizzle.py chili.json
 ```
+
+
+Terminal
+``` bash
+make arrabiata.pdf # execute recipe
+```
 :::
 ::::
 ::::::
+
+::: fragment
+![](img/Make-diagram.png){fig-align="center" width="700"}
+:::
 
 <!-- :::: {.columns} -->
 
@@ -180,8 +190,8 @@ aromatics.yaml: sizzle.py garlic.txt chili.json
 
 ## Containerization with Docker
 
-::::: columns
-::: {.column width="75%"}
+::::::: columns
+::::: {.column width="75%"}
 ::: incremental
 -   **Software containers** encapsulate computational environment
 
@@ -196,6 +206,7 @@ aromatics.yaml: sizzle.py garlic.txt chili.json
 
 -   **Rocker** is a Docker image for R (<https://rocker-project.org/>)
 :::
+
 ::: fragment
 Dockerfile
 
@@ -206,13 +217,13 @@ FROM rocker/verse:4.4
 # Install R package versions at time when R 4.4 was up-to-date
 RUN install2.r ggplot2 dplyr kableExtra
 ```
-:::   
 :::
+:::::
 
 ::: {.column width="25%"}
 ![[<https://commons.wikimedia.org/wiki/File:Docker-svgrepo-com.svg>]{style="font-size:0.7em"}](img/docker.png)
 :::
-:::::
+:::::::
 
 ------------------------------------------------------------------------
 
@@ -235,10 +246,10 @@ git clone git@gitlab.uzh.ch:crsuzh/zurich-names.git
 cd zurich-names
 
 # run automated analyses
-make docker-report
+make docker-report-html
 ```
 
-→ `report.html` and `report.pdf`
+→ `report.html`
 
 [https://gitlab.uzh.ch/crsuzh/zurich-names](https://gitlab.uzh.ch/crsuzh/zurich-names){style="font-size:0.65em"}
 :::
@@ -266,11 +277,11 @@ make docker-report
 
 . . .
 
--   There is a **learning curve**, but ...
+-   There is a **learning curve** 😨, but ...
 
     -   start simple and learn **step-by-step**!
 
-    -   constantly **evolving tools**
+    -   constantly **evolving tools** 🚀
 
     -   invested learning time can **save you time** in the future!
 
