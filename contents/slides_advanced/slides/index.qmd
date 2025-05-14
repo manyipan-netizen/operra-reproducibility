@@ -149,7 +149,7 @@ make arrabiata.pdf # execute recipe
 ::::::
 
 ::: fragment
-![](img/Make-diagram.png){fig-align="center" width="700"}
+![](img/Make-diagram.png){fig-align="center" width="600"}
 :::
 
 <!-- :::: {.columns} -->
@@ -236,7 +236,7 @@ RUN install2.r ggplot2 dplyr kableExtra
 
 :::: {.column width="45%"}
 ::: fragment
-Demo
+Terminal
 
 ``` {.bash style="font-size:0.85em"}
 # clone git repository
@@ -279,13 +279,13 @@ make docker-report-html
 
 -   There is a **learning curve** 😨, but ...
 
-    -   start simple and learn **step-by-step**!
+    -   start simple and learn **step-by-step** 💡
 
-    -   constantly **evolving tools** 🚀
+    -   tools are **constantly evolving** 🚀
 
-    -   invested learning time can **save you time** in the future!
+    -   invested learning time can **save you time** in the future ⏳
 
-    -   skills are **useful in/outside Academia**!
+    -   skills are **useful in/outside Academia** 💰 👨‍🔬
 
 ------------------------------------------------------------------------
 
