@@ -142,7 +142,7 @@ Website with all materials: <https://crsuzh.pages.uzh.ch/workshop-quarto-2025-uz
 
 ![](img/reproducible.png){.absolute right="0" top="0" height="75"}
 
-![Inspired by @peng2011 and @peikert](img/comp-repro-spectrum.png)
+![Inspired by @peng2011 and @Peikert2021](img/comp-repro-spectrum.png)
 
 ------------------------------------------------------------------------
 

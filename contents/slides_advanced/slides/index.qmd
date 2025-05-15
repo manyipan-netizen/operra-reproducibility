@@ -246,7 +246,7 @@ git clone git@gitlab.uzh.ch:crsuzh/zurich-names.git
 cd zurich-names
 
 # run automated analyses
-make docker-report-html
+make docker-report
 ```
 
 → `report.html`
