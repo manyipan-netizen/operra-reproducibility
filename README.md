@@ -6,7 +6,7 @@ The website for this workshop is:
 
 ## Citation
 
-Cite this workshop as:
+Cite this workshop as: <https://crsuzh.pages.uzh.ch/operra-reproducibility>
 
 A BibTeX entry is given by:
 

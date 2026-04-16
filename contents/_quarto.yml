@@ -18,8 +18,8 @@ website:
 
     favicon: 'assets/CRSnew_Logo.svg'
 
-    site-url: https://gitlab.uzh.ch/crsuzh/workshop-quarto-2025-unige
-    repo-url: https://gitlab.uzh.ch/crsuzh/workshop-quarto-2025-unige
+    site-url: https://gitlab.uzh.ch/crsuzh/operra-reproducibilty
+    repo-url: https://gitlab.uzh.ch/crsuzh/operra-reproducibilty
 
     navbar:
         collapse-below: lg
