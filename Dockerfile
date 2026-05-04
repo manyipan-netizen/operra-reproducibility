@@ -1,17 +1,13 @@
 FROM rocker/verse:4.5.0
 
-RUN install2.r ggplot2 dplyr kableExtra
-
-RUN apt-get update && apt-get install -y \
-    python3-pip \
-    git \
-    openjdk-21-jdk-headless \
-    curl \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN install2.r ggplot2 dplyr kableExtra && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    openjdk-21-jre-headless \
+    && apt-get clean && rm -rf /var/lib/apt/lists/* && \
+    curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR=/usr/local bash
 
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt && \
-    pip3 install --no-cache-dir --break-system-packages polars snakemake && \
+RUN uv pip install --system --no-cache polars snakemake -r requirements.txt && \
     curl -s https://get.nextflow.io | bash && mv nextflow /usr/local/bin/
 
 EXPOSE 8787
