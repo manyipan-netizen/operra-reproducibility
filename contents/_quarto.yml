@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "**/*.qmd"
+    - "!**/demo/nextflow/[0-9]*.qmd"
+    - "!**/demo/snakemake/[0-9]*.qmd"
 
 website:
     title: Home
