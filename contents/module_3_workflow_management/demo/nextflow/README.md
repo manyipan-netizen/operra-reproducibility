@@ -11,11 +11,16 @@ example_data.csv
                                  │
                                  ▼
                          2_summary.R  (R)  →  2_summary.txt
-                                                    │
+                                                   │
+                                                   ▼
+               3_pandas_process.py  (Python/pandas)  →  3_processed.csv
+                                                   │
                               ┌─────────────────────┘
                               ▼
-                        3_report.qmd  (Quarto)  →  3_report.html
+                        4_report.qmd  (Quarto)  →  4_report.html
 ```
+
+Step 3 intentionally introduces an additional dependency (`pandas`) that may not be installed by default.
 
 ## Running the demo
 
@@ -32,7 +37,8 @@ nextflow run main.nf
 # Results are published to results/
 #   results/1_derived.csv
 #   results/2_summary.txt
-#   results/3_report.html
+#   results/3_processed.csv
+#   results/4_report.html
 ```
 
 Override the output directory with `--outdir`:
@@ -56,7 +62,8 @@ For example, if you edit `2_summary.R`:
 ```
  1_derive.py  ✔ cached   (no re-run)
  2_summary.R  ↻ re-runs  (you changed this)
- 3_report.qmd ↻ re-runs  (depends on 2_summary.R's output)
+ 3_pandas_process.py ↻ re-runs  (depends on 1_derived.csv)
+ 4_report.qmd ↻ re-runs  (depends on downstream outputs)
 ```
 
 This is one of the core reproducibility benefits of a workflow manager:
@@ -65,12 +72,12 @@ step that depends on something you just changed.
 
 ## Switching between PDF and HTML output
 
-The report format is controlled by the `format:` key at the top of `3_report.qmd`
+The report format is controlled by the `format:` key at the top of `4_report.qmd`
 and the `--to` flag passed to Quarto in `main.nf`.
 
 **To render as HTML** (emojis and interactive features work out of the box):
 
-In `3_report.qmd`, change:
+In `4_report.qmd`, change:
 ```yaml
 format:
   pdf:
@@ -86,20 +93,20 @@ format:
 And in `main.nf`, update the `FINAL_REPORT` script and output:
 ```groovy
 output:
-path "3_report.html"
+path "4_report.html"
 
 script:
 """
-quarto render 3_report.qmd --to html --output 3_report.html --output-dir .
+quarto render 4_report.qmd --to html --output 4_report.html --output-dir .
 """
 ```
 
 **To render as PDF** (default, requires a LaTeX installation):
 
-Keep `format: pdf` in `3_report.qmd` and `--to pdf` in `main.nf`.
+Keep `format: pdf` in `4_report.qmd` and `--to pdf` in `main.nf`.
 
 > Note: emojis in section headings are silently dropped by the default PDF engine (pdflatex).
-> Switch to `pdf-engine: lualatex` in `3_report.qmd` if you need emoji support in PDFs —
+> Switch to `pdf-engine: lualatex` in `4_report.qmd` if you need emoji support in PDFs —
 > this requires installing the `emoji` LaTeX package and an emoji font in the Docker image.
 
 ## Cleaning up

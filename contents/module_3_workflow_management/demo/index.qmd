@@ -22,12 +22,18 @@ example_data.csv
                                 ▼
                        2_summary.R  (R)  →  2_summary.txt   # summarise the centred values
                                                   │
+                                │
+                                ▼
+                 3_pandas_process.py  (Python/pandas)  →  3_processed.csv   # add a pandas-derived feature
+                                                  │
                             ┌─────────────────────┘
                             ▼
-                      3_report.qmd  (Quarto)  →  3_report.html   # collect outputs into a report
+                      4_report.qmd  (Quarto)  →  4_report.html   # collect outputs into a report
 ```
 
 You do **not** need to understand the Python or R code in detail — the focus is on the workflow layer around them.
+
+For the workshop, step 3 intentionally introduces an extra dependency (`pandas`) that may not be installed by default.
 
 ---
 
@@ -56,7 +62,7 @@ docker compose exec nextflow bash
 nextflow run main.nf
 ```
 
-Results are written to `results/3_report.html`.
+Results are written to `results/4_report.html`.
 
 ### Re-running after a change
 
@@ -95,7 +101,7 @@ docker compose exec snakemake bash
 snakemake --cores 1
 ```
 
-Results are written to `results/3_report.html`.
+Results are written to `results/4_report.html`.
 
 ### Re-running after a change
 

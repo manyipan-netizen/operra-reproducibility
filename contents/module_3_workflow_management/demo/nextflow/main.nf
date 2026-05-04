@@ -4,20 +4,25 @@
  * Minimal workshop demo pipeline:
  * 1. Python centres the values in example_data.csv  → 1_derived.csv
  * 2. R reads 1_derived.csv and produces summary stats → 2_summary.txt
- * 3. Quarto collects both outputs into a PDF report   → 3_report.pdf
+ * 3. Python (pandas) processes 1_derived.csv           → 3_processed.csv
+ * 4. Quarto collects outputs into an HTML report       → 4_report.html
  *
  * Steps 1 and 2 are sequential: R depends on Python's output.
  */
 
+params.outdir = (params.outdir ?: 'results')
+
 workflow {
   def derived = PY_DERIVE( file('example_data.csv'), file('1_derive.py') )
   def summary = R_SUMMARY( derived, file('2_summary.R') )
+  def processed = PANDAS_PROCESS( derived, summary, file('3_pandas_process.py') )
 
   FINAL_REPORT(
-    file('3_report.qmd'),
+    file('4_report.qmd'),
     file('example_data.csv'),
     derived,
-    summary
+    summary,
+    processed
   )
 }
 
@@ -53,20 +58,38 @@ process R_SUMMARY {
   """
 }
 
+process PANDAS_PROCESS {
+  publishDir "${params.outdir}", mode: 'copy'
+
+  input:
+  path "1_derived.csv"
+  path "2_summary.txt"
+  path "3_pandas_process.py"
+
+  output:
+  path "3_processed.csv"
+
+  script:
+  """
+  python3 3_pandas_process.py --input 1_derived.csv --summary 2_summary.txt --output 3_processed.csv
+  """
+}
+
 process FINAL_REPORT {
   publishDir "${params.outdir}", mode: 'copy'
 
   input:
-  path "3_report.qmd"
+  path "4_report.qmd"
   path "example_data.csv"
   path "1_derived.csv"
   path "2_summary.txt"
+  path "3_processed.csv"
 
   output:
-  path "3_report.html"
+  path "4_report.html"
 
   script:
   """
-  quarto render 3_report.qmd --to html --output 3_report.html --output-dir .
+  quarto render 4_report.qmd --to html --output 4_report.html --output-dir .
   """
 }

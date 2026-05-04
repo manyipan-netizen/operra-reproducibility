@@ -11,11 +11,16 @@ example_data.csv
                                   │
                                   ▼
                        2_summary.R  (R)  →  work/2_summary.txt
-                                                    │
+                                                   │
+                                                   ▼
+            3_pandas_process.py  (Python/pandas)  →  work/3_processed.csv
+                                                   │
                             ┌───────────────────────┘
                             ▼
-                      3_report.qmd  (Quarto)  →  results/3_report.html
+                      4_report.qmd  (Quarto)  →  results/4_report.html
 ```
+
+Step 3 intentionally introduces an additional dependency (`pandas`) that may not be installed by default.
 
 ## Running the demo
 
@@ -30,9 +35,7 @@ docker compose exec snakemake bash
 snakemake --cores 1
 
 # Results are published to results/
-#   results/1_derived.csv
-#   results/2_summary.txt
-#   results/3_report.html
+#   results/4_report.html
 ```
 
 ## Re-running after changes
@@ -50,7 +53,8 @@ For example, if you edit `2_summary.R`:
 ```
  py_derive    — skipped  (outputs are up to date)
  r_summary    — re-runs  (you changed this script)
- final_report — re-runs  (depends on r_summary's output)
+ pandas_process — re-runs  (depends on 1_derived.csv)
+ final_report   — re-runs  (depends on downstream outputs)
 ```
 
 To force a specific rule to re-run regardless of timestamps:

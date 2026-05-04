@@ -23,7 +23,7 @@ produced by the earlier pipeline steps.
 
 ```csv
 
-{{< include 1_derived.csv >}}
+{{< include work/1_derived.csv >}}
 
 ```
 
@@ -31,6 +31,14 @@ produced by the earlier pipeline steps.
 
 ```text
 
-{{< include 2_summary.txt >}}
+{{< include work/2_summary.txt >}}
+
+```
+
+## Pandas-Processed Data (`3_processed.csv`)
+
+```csv
+
+{{< include work/3_processed.csv >}}
 
 ```
