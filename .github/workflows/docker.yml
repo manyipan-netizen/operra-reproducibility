@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - Dockerfile
+      - Dockerfile.renku
       - requirements.txt
 
 jobs:
@@ -26,6 +26,7 @@ jobs:
       - uses: docker/build-push-action@v6
         with:
           context: .
+          file: Dockerfile.renku
           push: true
           tags: ghcr.io/${{ github.repository }}:latest
           platforms: linux/amd64
