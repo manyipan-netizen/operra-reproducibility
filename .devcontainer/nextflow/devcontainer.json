@@ -4,7 +4,7 @@
     "../../contents/module_3_workflow_management/demo/nextflow/docker-compose.yaml"
   ],
   "service": "nextflow",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspace/contents/module_3_workflow_management/demo/nextflow",
   "shutdownAction": "stopCompose",
   "customizations": {
     "vscode": {
@@ -17,4 +17,3 @@
     }
   }
 }
-

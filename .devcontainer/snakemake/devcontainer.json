@@ -4,7 +4,7 @@
     "../../contents/module_3_workflow_management/demo/snakemake/docker-compose.yaml"
   ],
   "service": "snakemake",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspace/contents/module_3_workflow_management/demo/snakemake",
   "shutdownAction": "stopCompose",
   "customizations": {
     "vscode": {
@@ -17,4 +17,3 @@
     }
   }
 }
-
