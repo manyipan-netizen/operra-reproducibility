@@ -15,9 +15,6 @@ RUN python3 -m venv /opt/venv && \
 
 ENV PATH=/opt/venv/bin:$PATH
 
-RUN mkdir -p /etc/rstudio && \
-    printf 'www-address=0.0.0.0\nwww-port=8787\n' > /etc/rstudio/rserver.conf
-
 EXPOSE 8787
 ENV USER=rstudio
 CMD ["/init"]
