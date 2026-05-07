@@ -2,6 +2,13 @@ services:
   pyverse:
     image: ghcr.io/a1eksb/reproducability:rstudio
     build: !reset null
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8787"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
   caddy:
     image: caddy:2-alpine
     restart: unless-stopped
@@ -13,4 +20,5 @@ services:
     volumes:
       - .devcontainer/rstudio/Caddyfile:/etc/caddy/Caddyfile:ro
     depends_on:
-      - pyverse
+      pyverse:
+        condition: service_healthy

@@ -1,6 +1,6 @@
 FROM rocker/verse:4.5.0
 
-RUN install2.r ggplot2 dplyr kableExtra && \
+RUN install2.r kableExtra && \
     apt-get update && apt-get install -y --no-install-recommends \
     python3-pip \
     python3-venv \
