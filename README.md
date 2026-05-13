@@ -6,7 +6,7 @@ Part of the OPeR-RA project.
 
 <a href="https://codespaces.new/a1eksb/reproducability?quickstart=1&devcontainer_path=.devcontainer%2Frstudio%2Fdevcontainer.json" target="_blank" rel="noopener noreferrer">Open in RStudio Server</a> — Opens RStudio Server for the whole project in your browser. RStudio will open automatically once the environment is ready.
 
-The website for this workshop is: 
+The website for this workshop is:
 
 ## Citation
 
@@ -25,6 +25,7 @@ A BibTeX entry is given by:
 Builds the image locally and mounts the project directory:
 
 ```bash
+docker compose build pyverse --no-cache
 docker compose up -d
 ```
 
