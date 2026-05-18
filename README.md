@@ -13,6 +13,7 @@ Open the whole project in RStudio Server in a GitHub Codespace:
 - Select this repository
 - Select `Dev container configuration` as "Operra - RStudio (project-wide)"
 - Create codespace (this may take several minutes)
+- Navigate to `Ports`and open the provided URL in a new tab
 
 ## Option 2: Running Locally via Docker
 
