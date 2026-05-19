@@ -13,7 +13,17 @@ Requirements:
 
 - A personal [Github](https://github.com) account
 
-With this option, you will work in a Github codespace. 
+With this option, you will work in a Github codespace. Open the whole project in RStudio Server in a GitHub Codespace:
+
+<a href="https://codespaces.new/a1eksb/reproducability?quickstart=1&devcontainer_path=.devcontainer%2Frstudio%2Fdevcontainer.json" target="_blank" rel="noopener noreferrer">Open in RStudio Server</a> 
+
+- Select this repository
+- Select `Dev container configuration` as "Operra - RStudio (project-wide)"
+- Create codespace (this may take several minutes)
+- Navigate to `Ports`and open the provided URL in a new tab
+
+More detailed instructions are provided here: <https://github.com/a1eksb/operra-reproducibility>
+
 
 ::: {.callout-note} 
 Note that codespace usage is free up to 120 hours per month (at the time of writing). More in the [Github Docs here](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces).
