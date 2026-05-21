@@ -1,0 +1,109 @@
+
+---
+title: Bonus slides
+date: today
+date-format: long
+author:
+  - Fabio Molo
+editor: source
+preview-links: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        font-size: 1.8em;
+        color: #29487d;
+      }
+      </style>
+format: 
+  revealjs:
+    menu: true
+    pdf: true
+    smaller: true
+    auto-stretch: false
+    logo: "img/uzh_logo_d_pos_web_assoc.jpg"
+    embed-resources: true
+    progress: true
+    slide-number: true
+    footer: "Center for Reproducible Science and Research Synthesis | [Home](../../index.qmd)"
+    title-slide-attributes:
+      data-background-size: contain
+      data-background-position: bottom
+      data-background-opacity: "0.8"
+bibliography: references.bib
+---
+
+## The Center for Reproducible Science and Research Synthesis
+
+::::: {.columns align="center"}
+::: {.column width="50%"}
+![](img/CRSnew_Logo.png){height="250"}
+
+<https://www.crs.uzh.ch>
+
+:::
+
+::: {.column width="50%" align="top"}
+**Teaching and training**
+
+-   Good Research Practice courses\
+-   Educational resources, e.g., [Primers](https://www.crs.uzh.ch/en/resources/CRS-Primers.html)\
+-   [ReproducibiliTea](https://www.crs.uzh.ch/en/training/ReproducibiliTea.html) journal club
+
+**Research**
+
+-   Evidence synthesis in biomedical research
+-   Open research data
+-   Methods for replication studies
+-   Assessing and improving research  quality
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Context and terminology
+
+<br>
+
+![@theturingwaycommunity2022](img/turingway_reproducible_matrix.jpg){fig-align="center" width="75%"}
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## Replicability: Example
+
+![](img/replicable.png){.absolute right="0" top="0" height="75"}
+
+![@opensciencecollaboration2015](img/replicability_open_science_collaboration.jpeg){fig-align="center" width="640"}
+
+------------------------------------------------------------------------
+
+## Robustness: Example
+
+![](img/robust.png){.absolute right="0" top="0" height="75"}
+
+::::: {.columns align="center"}
+::: {.column width="50%"}
+![@Gould2025](img/ecology_1.png)
+:::
+
+::: {.column width="50%"}
+![](img/ecology_2.png){height="400"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Generalizability
+
+![](img/generalizable.png){.absolute right="0" top="0" height="75"}
+
+<br>
+
+
+![@Turing2024](img/Turing-generalisable.png){fig-align="center" width="50%"}
+
+::: fragment
+$\rightarrow$ **Reproducibility + Robustness + Replicability necessary for Generalizabilty!**
+:::

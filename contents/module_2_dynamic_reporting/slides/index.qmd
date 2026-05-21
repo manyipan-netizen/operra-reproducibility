@@ -63,33 +63,7 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-## The Center for Reproducible Science and Research Synthesis
 
-::::: {.columns align="center"}
-::: {.column width="50%"}
-![](img/CRSnew_Logo.png){height="250"}
-
-<https://www.crs.uzh.ch>
-
-:::
-
-::: {.column width="50%" align="top"}
-**Teaching and training**
-
--   Good Research Practice courses\
--   Educational resources, e.g., [Primers](https://www.crs.uzh.ch/en/resources/CRS-Primers.html)\
--   [ReproducibiliTea](https://www.crs.uzh.ch/en/training/ReproducibiliTea.html) journal club
-
-**Research**
-
--   Evidence synthesis in biomedical research
--   Open research data
--   Methods for replication studies
--   Assessing and improving research  quality
-:::
-:::::
-
-------------------------------------------------------------------------
 
 ## Computational reproducibility
 
@@ -136,73 +110,12 @@ $\rightarrow$ **Still optimistic estimates: Code from non-sharing authors likely
 :::
 ------------------------------------------------------------------------
 
-## Structure of this workshop
-
-1.  **Introduction** -- What is dynamic reporting?
-
-2.  **Hands-on** -- How can you use it?
-
-3.  **Sharing and publishing** -- How to share it with others?
-
-4.  **Demonstration of an advanced workflow** -- What else is possible?
-
-::: fragment
-Website with all materials: <https://crsuzh.pages.uzh.ch/workshop-quarto-2025-unige/>
-:::
-------------------------------------------------------------------------
-
-## Context and terminology
-
-<br>
-
-![@theturingwaycommunity2022](img/turingway_reproducible_matrix.jpg){fig-align="center" width="75%"}
-
-------------------------------------------------------------------------
-
 ## Computational reproducibility
 
 ![](img/reproducible.png){.absolute right="0" top="0" height="75"}
 
 ![Inspired by @peng2011 and @Peikert2021](img/comp-repro-spectrum.png)
 
-------------------------------------------------------------------------
-
-## Replicability: Example
-
-![](img/replicable.png){.absolute right="0" top="0" height="75"}
-
-![@opensciencecollaboration2015](img/replicability_open_science_collaboration.jpeg){fig-align="center" width="640"}
-
-------------------------------------------------------------------------
-
-## Robustness: Example
-
-![](img/robust.png){.absolute right="0" top="0" height="75"}
-
-::::: {.columns align="center"}
-::: {.column width="50%"}
-![@Gould2025](img/ecology_1.png)
-:::
-
-::: {.column width="50%"}
-![](img/ecology_2.png){height="400"}
-:::
-:::::
-
-------------------------------------------------------------------------
-
-## Generalizability
-
-![](img/generalizable.png){.absolute right="0" top="0" height="75"}
-
-<br>
-
-
-![@Turing2024](img/Turing-generalisable.png){fig-align="center" width="50%"}
-
-::: fragment
-$\rightarrow$ **Reproducibility + Robustness + Replicability necessary for Generalizabilty!**
-:::
 
 ------------------------------------------------------------------------
 
@@ -212,7 +125,7 @@ $\rightarrow$ **Reproducibility + Robustness + Replicability necessary for Gener
 :::::: fragment
 ::::: {.columns align="center"}
 ::: {.column width="72%"}
-But reproducible research is hard and may feel overwhelming
+Reproducible research is hard and may feel overwhelming
 :::
 
 ::: {.column width="28%"}
@@ -224,7 +137,7 @@ But reproducible research is hard and may feel overwhelming
 ::::::: fragment
 :::::: {.columns align="center"}
 :::: {.column width="60%"}
-Do not despair! With every step...
+Do not despair. With every step...
 
 ::: incremental
 -   you are already **one step ahead**
