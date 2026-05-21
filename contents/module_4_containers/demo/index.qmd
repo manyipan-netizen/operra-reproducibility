@@ -1,6 +1,5 @@
 ---
 title: "Hands-on: Software Containers"
-
 format:
   html:
     toc-depth: 4
@@ -8,7 +7,17 @@ execute:
   eval: false
 ---
 
-# Title
+# Exercise
+
+-   Inspect the `Dockerfile`in the workshop repository.
+- Try to understand the effects of every line.
+- Consider the following question: 
+    - What happens if you install a library manually within the running container environment? Which of the elements (Container, Image, Recipe) is affected? What are the implications for computational reproducibility?
+
+## Optional / advanced
+
+If you work locally on your machine – not in the Github Codespace environment – you can experiment with the Dockerfile: add an R package to the recipe, change the exposed port, or add an entire new service. 
+
 
 # Additional Resources
 
