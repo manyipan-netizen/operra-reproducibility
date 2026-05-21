@@ -5,8 +5,8 @@ date: last-modified
 author:
   - name: "Fabio Molo"
     orcid: 0000-0001-9320-5854
-
   - name: "Daniel Stekhoven"
+  - name: "Aleksandar Bobic"
 
 
 toc: false
